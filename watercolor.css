@@ -895,3 +895,33 @@ img {
   height: 3px;
   transform: rotate(46deg);
 }
+
+.outline-91 {
+  top: 402px;
+  left: 260px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 29px;
+  height: 3px;
+  transform: rotate(130deg);
+}
+.outline-92 {
+  top: 420px;
+  left: 251px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  border-left: 2px solid #000;
+  width: 28px;
+  height: 12px;
+  transform: rotate(287deg);
+}
+
+.outline-93 {
+  top: 427px;
+  left: 255px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  background: #000;
+  width: 17px;
+  height: 13px;
+  transform: rotate(287deg);
+}

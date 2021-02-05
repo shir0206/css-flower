@@ -258,7 +258,6 @@ img {
   top: 325px;
   left: 268px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
-  /* border-right: 2px solid #000; */
   border-bottom: 4px solid #000;
   width: 45px;
   height: 15px;
@@ -456,4 +455,97 @@ img {
   width: 20px;
   height: 15px;
   transform: rotate(130deg);
+}
+
+.outline-46 {
+  top: 341px;
+  left: 173px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 38px;
+  height: 18px;
+  transform: rotate(286deg);
+}
+
+.outline-47 {
+  top: 350px;
+  left: 183px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 20px;
+  height: 10px;
+  transform: rotate(49deg);
+}
+
+.outline-48 {
+  top: 355px;
+  left: 195px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-right: 3px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 3px solid #000;
+  width: 17px;
+  height: 7px;
+  transform: rotate(303deg);
+}
+
+.outline-49 {
+  top: 345px;
+  left: 221px;
+  border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 10px;
+  height: 15px;
+  transform: rotate(353deg);
+}
+.outline-50 {
+  top: 359px;
+  left: 217px;
+  border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 5px;
+  height: 7px;
+  transform: rotate(178deg);
+}
+.outline-51 {
+  top: 365px;
+  left: 215px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-left: 6px solid #000;
+  width: 10px;
+  height: 15px;
+  transform: rotate(359deg);
+}
+
+.outline-52 {
+  top: 388px;
+  left: 218px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-left: 2px solid #000;
+  width: 5px;
+  height: 10px;
+  transform: rotate(92deg);
+}
+
+.outline-53 {
+  top: 389px;
+  left: 213px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-right: 1px solid #000;
+  width: 1px;
+  height: 18px;
+  transform: rotate(223deg);
+}
+.outline-54 {
+  top: 400px;
+  left: 197px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  /* border-right: 3px solid #000; */
+  /* border-bottom: 2px solid #000; */
+  border-left: 3px solid #000;
+  width: 17px;
+  height: 7px;
+  transform: rotate(300deg);
 }

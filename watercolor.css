@@ -1265,3 +1265,27 @@ img {
   height: 4px;
   transform: rotate(150deg);
 }
+
+.watercolor {
+  position: absolute;
+}
+#test {
+  width: 400px;
+  height: 275px;
+  background: gold;
+  border-radius: 50%;
+  box-shadow: 100px 100px 90px 90px rgb(4 238 35);
+  filter: blur(3px);
+}
+
+.watercolor-1 {
+  top: 495px;
+  left: 233px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 11px;
+  height: 30px;
+  transform: rotate(316deg);
+  background: #0f679e;
+  box-shadow: -2px -14px 12px 5px #46c8b3;
+  filter: blur(3px);
+}

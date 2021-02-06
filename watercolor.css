@@ -580,7 +580,7 @@ img {
   transform: rotate(219deg);
 }
 
-.outline-58 {
+.outline-spot-1 {
   top: 397px;
   left: 185px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -590,7 +590,7 @@ img {
   transform: rotate(9deg);
 }
 
-.outline-59 {
+.outline-spot-2 {
   top: 413px;
   left: 180px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -599,7 +599,7 @@ img {
   height: 4px;
   transform: rotate(178deg);
 }
-.outline-60 {
+.outline-spot-3 {
   top: 425px;
   left: 180px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -867,7 +867,7 @@ img {
   transform: rotate(323deg);
 }
 
-.outline-88 {
+.outline-spot-4 {
   top: 381px;
   left: 325px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -877,7 +877,7 @@ img {
   transform: rotate(223deg);
 }
 
-.outline-89 {
+.outline-spot-5 {
   top: 381px;
   left: 336px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -887,7 +887,7 @@ img {
   transform: rotate(187deg);
 }
 
-.outline-90 {
+.outline-spot-6 {
   top: 389px;
   left: 337px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
@@ -1080,4 +1080,189 @@ img {
   width: 36px;
   height: 9px;
   transform: rotate(23deg);
+}
+
+.outline-spot-7 {
+  top: 193px;
+  left: 242px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 5px;
+  height: 4px;
+  transform: rotate(251deg);
+}
+
+.outline-spot-8 {
+  top: 205px;
+  left: 244px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 3px;
+  transform: rotate(330deg);
+}
+
+.outline-spot-9 {
+  top: 198px;
+  left: 249px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(46deg);
+}
+
+.outline-spot-10 {
+  top: 210px;
+  left: 300px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(46deg);
+}
+
+.outline-spot-11 {
+  top: 215px;
+  left: 296px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(161deg);
+}
+
+.outline-spot-12 {
+  top: 332px;
+  left: 338px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 4px;
+  transform: rotate(251deg);
+}
+
+.outline-spot-13 {
+  top: 330px;
+  left: 350px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 3px;
+  transform: rotate(233deg);
+}
+
+.outline-spot-14 {
+  top: 420px;
+  left: 268px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(46deg);
+}
+.outline-spot-15 {
+  top: 408px;
+  left: 263px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 2px;
+  height: 3px;
+  transform: rotate(46deg);
+}
+.outline-spot-16 {
+  top: 477px;
+  left: 257px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 4px;
+  transform: rotate(251deg);
+}
+
+.outline-spot-17 {
+  top: 492px;
+  left: 303px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 4px;
+  transform: rotate(251deg);
+}
+
+.outline-spot-18 {
+  top: 492px;
+  left: 318px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 3px;
+  transform: rotate(211deg);
+}
+
+.outline-spot-19 {
+  top: 496px;
+  left: 335px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(46deg);
+}
+.outline-spot-20 {
+  top: 504px;
+  left: 317px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 2px;
+  height: 3px;
+  transform: rotate(261deg);
+}
+.outline-spot-21 {
+  top: 511px;
+  left: 330px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 4px;
+  transform: rotate(251deg);
+}
+
+.outline-spot-22 {
+  top: 516px;
+  left: 237px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 2px;
+  transform: rotate(115deg);
+}
+
+.outline-spot-23 {
+  top: 512px;
+  left: 246px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 2px;
+  height: 2px;
+  transform: rotate(106deg);
+}
+
+.outline-spot-24 {
+  top: 516px;
+  left: 243px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 2px;
+  height: 3px;
+  transform: rotate(137deg);
+}
+.outline-spot-25 {
+  top: 517px;
+  left: 248px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 4px;
+  transform: rotate(150deg);
 }

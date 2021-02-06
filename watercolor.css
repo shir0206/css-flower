@@ -4,7 +4,7 @@
 }
 
 img {
-  opacity: 0.5;
+  opacity: 0.2;
   /* display: none; */
 }
 .outline {
@@ -1282,10 +1282,94 @@ img {
   top: 495px;
   left: 233px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
-  width: 11px;
+  width: 12px;
   height: 30px;
-  transform: rotate(316deg);
+  transform: rotate(315deg);
   background: #0f679e;
-  box-shadow: -2px -14px 12px 5px #46c8b3;
+  box-shadow: -2px -14px 6px 4px #12a9c0;
+  filter: blur(3px);
+}
+
+.watercolor-2 {
+  top: 500px;
+  left: 293px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 11px;
+  height: 16px;
+  transform: rotate(163deg);
+  background: #052558;
+  box-shadow: -2px -14px 12px 9px #125e9e;
+  filter: blur(2px);
+}
+
+.watercolor-3 {
+  top: 522px;
+  left: 299px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 19px;
+  height: 16px;
+  transform: rotate(163deg);
+  background: #125e9e;
+  box-shadow: -2px -14px 12px 5px #12a9c0;
+  filter: blur(4px);
+}
+
+.watercolor-4 {
+  top: 496px;
+  left: 298px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 16px;
+  height: 27px;
+  transform: rotate(147deg);
+  background: #052558;
+  box-shadow: -2px -14px 12px 7px #3087cf;
+  filter: blur(2px);
+}
+
+.watercolor-5 {
+  top: 520px;
+  left: 317px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 24px;
+  height: 24px;
+  transform: rotate(140deg);
+  background: #3087cf;
+  box-shadow: -2px -14px 12px 5px #33addc;
+  filter: blur(2.5px);
+}
+
+.watercolor-6 {
+  top: 489px;
+  left: 309px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 6px;
+  height: 39px;
+  transform: rotate(112deg);
+  background: #0a3e91;
+  box-shadow: 2px -14px 12px 8px #3087cf;
+  filter: blur(2px);
+}
+
+.watercolor-7 {
+  top: 498px;
+  left: 310px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 13px;
+  height: 22px;
+  transform: rotate(117deg);
+  background: #0e418b;
+  box-shadow: 5px -19px 11px 11px #33addc;
+  filter: blur(4px);
+}
+
+.watercolor-8 {
+  top: 478px;
+  left: 313px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 10px;
+  height: 48px;
+  transform: rotate(105deg);
+  background: #3087cf;
+  box-shadow: -1px -16px 7px 8px #33addc;
   filter: blur(3px);
 }

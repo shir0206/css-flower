@@ -1,4 +1,4 @@
-.watercolor-cont {
+.watercolor-flower-cont {
   width: 564px;
   height: 564px;
 }
@@ -580,35 +580,6 @@ img {
   transform: rotate(219deg);
 }
 
-.outline-spot-1 {
-  top: 397px;
-  left: 185px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 7px;
-  height: 10px;
-  transform: rotate(9deg);
-}
-
-.outline-spot-2 {
-  top: 413px;
-  left: 180px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 3px;
-  height: 4px;
-  transform: rotate(178deg);
-}
-.outline-spot-3 {
-  top: 425px;
-  left: 180px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 4px;
-  height: 4px;
-  transform: rotate(274deg);
-}
-
 .outline-61 {
   top: 372px;
   left: 218px;
@@ -867,36 +838,6 @@ img {
   transform: rotate(323deg);
 }
 
-.outline-spot-4 {
-  top: 381px;
-  left: 325px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 5px;
-  height: 4px;
-  transform: rotate(223deg);
-}
-
-.outline-spot-5 {
-  top: 381px;
-  left: 336px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 4px;
-  height: 3px;
-  transform: rotate(187deg);
-}
-
-.outline-spot-6 {
-  top: 389px;
-  left: 337px;
-  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
-  background: #000;
-  width: 3px;
-  height: 3px;
-  transform: rotate(46deg);
-}
-
 .outline-91 {
   top: 402px;
   left: 260px;
@@ -1082,6 +1023,64 @@ img {
   transform: rotate(23deg);
 }
 
+.outline-spot-1 {
+  top: 397px;
+  left: 185px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 7px;
+  height: 10px;
+  transform: rotate(9deg);
+}
+
+.outline-spot-2 {
+  top: 413px;
+  left: 180px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 4px;
+  transform: rotate(178deg);
+}
+.outline-spot-3 {
+  top: 425px;
+  left: 180px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 4px;
+  transform: rotate(274deg);
+}
+
+.outline-spot-4 {
+  top: 381px;
+  left: 325px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 5px;
+  height: 4px;
+  transform: rotate(223deg);
+}
+
+.outline-spot-5 {
+  top: 381px;
+  left: 336px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 4px;
+  height: 3px;
+  transform: rotate(187deg);
+}
+
+.outline-spot-6 {
+  top: 389px;
+  left: 337px;
+  border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
+  background: #000;
+  width: 3px;
+  height: 3px;
+  transform: rotate(46deg);
+}
 .outline-spot-7 {
   top: 193px;
   left: 242px;

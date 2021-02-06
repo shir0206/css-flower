@@ -1373,3 +1373,37 @@ img {
   box-shadow: -1px -16px 7px 8px #33addc;
   filter: blur(3px);
 }
+
+.watercolor-9 {
+  top: 484px;
+  left: 282px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 100px;
+  height: 105px;
+  transform: rotate(316deg);
+  background: #3087cf;
+  background: linear-gradient(
+    220deg,
+    #3087cf 0,
+    #3ca9da 20%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  filter: blur(1px);
+}
+
+.watercolor-10 {
+  top: 467px;
+  left: 282px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 118px;
+  height: 100px;
+  transform: rotate(190deg);
+  background: #3087cf;
+  background: linear-gradient(
+    231deg,
+    #3087cf 0,
+    #43b4ce 16%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  filter: blur(2px);
+}

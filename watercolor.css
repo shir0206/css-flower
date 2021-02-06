@@ -5,7 +5,7 @@
 
 img {
   opacity: 0.2;
-  /* display: none; */
+  display: none;
 }
 .outline {
   position: absolute;
@@ -1556,4 +1556,63 @@ img {
   background: #012a4b;
   box-shadow: 2px -12px 0px 2px #012a4b;
   filter: blur(4px);
+}
+
+.watercolor-23 {
+  top: 284px;
+  left: 176px;
+  border-radius: 9% 81% 19% 91% / 81% 19% 83% 17%;
+  width: 7px;
+  height: 57px;
+  transform: rotate(178deg);
+  background: #e63f90;
+  box-shadow: 2px -18px 3px 3px #e63f90;
+  filter: blur(2px);
+}
+
+.watercolor-24 {
+  top: 287px;
+  left: 187px;
+  border-radius: 50%;
+  width: 10px;
+  height: 16px;
+  transform: rotate(344deg);
+  background: #e63f90;
+  background: linear-gradient(
+    220deg,
+    #8a0645 0,
+    #8a0645 1%,
+    #e63f90 110%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  filter: blur(2px);
+}
+.watercolor-25 {
+  top: 293px;
+  left: 189px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 10px;
+  height: 10px;
+  transform: rotate(300deg);
+  background: #8a5c8f;
+  box-shadow: -2px -6px 12px 7px #9e508e;
+  filter: blur(2px);
+}
+
+.watercolor-26 {
+  top: 282px;
+  left: 189px;
+  border-radius: 50%;
+  width: 15px;
+  height: 36px;
+  transform: rotate(316deg);
+  background: #e63f90;
+  background: linear-gradient(
+    220deg,
+    #8a0645 0,
+    #8a0645 1%,
+    #e63f90 9%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  filter: blur(1px);
 }

@@ -15,7 +15,7 @@ img {
   left: 145px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 4px solid #000;
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   width: 20px;
   height: 20px;
   transform: rotate(320deg);
@@ -266,12 +266,13 @@ img {
 
 .outline-26 {
   top: 345px;
-  left: 270px;
+  left: 269px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
-  border-top: 2px solid #000;
-  width: 5px;
-  height: 15px;
+  border-top: 1px solid #000;
+  width: 6px;
+  height: 17px;
+  transform: rotate(11deg);
 }
 
 .outline-27 {
@@ -651,7 +652,7 @@ img {
   top: 488px;
   left: 252px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
-  border-top: 2px solid #000;
+  border-top: 3px solid #000;
   width: 20px;
   height: 5px;
   transform: rotate(224deg);
@@ -924,4 +925,159 @@ img {
   width: 17px;
   height: 13px;
   transform: rotate(287deg);
+}
+
+.outline-94 {
+  top: 437px;
+  left: 254px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 11px;
+  height: 7px;
+  transform: rotate(186deg);
+}
+
+.outline-96 {
+  top: 437px;
+  left: 269px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-left: 2px solid #000;
+  width: 7px;
+  height: 29px;
+  transform: rotate(125deg);
+}
+
+.outline-97 {
+  top: 484px;
+  left: 245px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 5px solid #000;
+  width: 5px;
+  height: 4px;
+  transform: rotate(200deg);
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 59px;
+  height: 6px;
+  transform: rotate(293deg);
+}
+.outline-98 {
+  top: 456px;
+  left: 275px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 10px;
+  height: 7px;
+  transform: rotate(85deg);
+}
+
+.outline-99 {
+  top: 458px;
+  left: 323px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-right: 2px solid #000;
+  border-bottom: 1px solid #000;
+  width: 12px;
+  height: 5px;
+  transform: rotate(226deg);
+}
+
+.outline-100 {
+  top: 464px;
+  left: 328px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 1px solid #000;
+  width: 15px;
+  height: 5px;
+  transform: rotate(208deg);
+}
+
+.outline-101 {
+  top: 470px;
+  left: 303px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 1px solid #000;
+  width: 28px;
+  height: 5px;
+  transform: rotate(135deg);
+}
+
+.outline-102 {
+  top: 480px;
+  left: 303px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-right: 2px solid #000;
+  border-bottom: 1px solid #000;
+  width: 3px;
+  height: 5px;
+  transform: rotate(96deg);
+}
+.outline-103 {
+  top: 491px;
+  left: 283px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 2px solid #000;
+  width: 26px;
+  height: 5px;
+  transform: rotate(314deg);
+}
+
+.outline-104 {
+  top: 494px;
+  left: 276px;
+  border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
+  border-left: 2px solid #000;
+  border-top: 1px solid #000;
+  width: 10px;
+  height: 28px;
+  transform: rotate(173deg);
+}
+.outline-105 {
+  top: 542px;
+  left: 262px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 4px solid #000;
+  width: 61px;
+  height: 10px;
+  transform: rotate(244deg);
+}
+
+.outline-106 {
+  top: 493.5px;
+  left: 273px;
+  border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
+  border-left: 3px solid #000;
+  border-top: 1px solid #000;
+  width: 4px;
+  height: 24px;
+  transform: rotate(116deg);
+}
+
+.outline-107 {
+  top: 513px;
+  left: 246px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 2px solid #000;
+  width: 26px;
+  height: 5px;
+  transform: rotate(284deg);
+}
+
+.outline-108 {
+  top: 531px;
+  left: 233px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 2px solid #000;
+  width: 45px;
+  height: 1px;
+  transform: rotate(261deg);
+}
+.outline-109 {
+  top: 557px;
+  left: 253px;
+  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
+  border-top: 3px solid #000;
+  width: 36px;
+  height: 9px;
+  transform: rotate(23deg);
 }

@@ -7,6 +7,9 @@ img {
   opacity: 0.2;
   display: none;
 }
+/* .watercolor-cont > div {
+  opacity: 0.95;filter: blur(0.5px);
+} */
 
 .outline {
   position: absolute;
@@ -1842,7 +1845,7 @@ img {
     #6c19a085 15%,
     rgba(0, 150, 255, 0) 25%
   );
-  filter: blur(0.5px);
+  filter: blur(1px);
 }
 .watercolor-44 {
   top: 380px;
@@ -1853,7 +1856,7 @@ img {
   transform: rotate(265deg);
   background: #b24b8e;
   box-shadow: 0px 0px 7px 2px #b24b8e;
-  filter: blur(5px);
+  filter: blur(1px);
 }
 .watercolor-45 {
   top: 356px;
@@ -1864,18 +1867,18 @@ img {
   transform: rotate(338deg);
   background: #e5408f;
   box-shadow: 18px 0px 7px 5px #e5408f;
-  filter: blur(5px);
+  filter: blur(1px);
 }
 .watercolor-46 {
-  top: 339px;
-  left: 370px;
+  top: 330px;
+  left: 399px;
   border-radius: 50%;
-  width: 41px;
+  width: 19px;
   height: 15px;
-  transform: rotate(158deg);
+  transform: rotate(133deg);
   background: #51aed8;
-  box-shadow: 18px 0px 7px 5px #51aed8;
-  filter: blur(5px);
+  box-shadow: 8px 0px 7px 5px #4dabd3;
+  filter: blur(1px);
 }
 .watercolor-47 {
   top: 352px;
@@ -1886,7 +1889,7 @@ img {
   transform: rotate(178deg);
   background: #b369aa;
   box-shadow: 18px 0px 7px 5px #b369aa;
-  filter: blur(5px);
+  filter: blur(3px);
 }
 .watercolor-48 {
   top: 361px;
@@ -1897,7 +1900,7 @@ img {
   transform: rotate(150deg);
   background: #3087cf;
   box-shadow: 18px 0px 7px 4px #3087cf;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 .watercolor-49 {
@@ -1909,7 +1912,7 @@ img {
   transform: rotate(290deg);
   background: #290341cc;
   box-shadow: 13px 0px 7px 4px #b369aa;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 .watercolor-50 {
@@ -1921,8 +1924,141 @@ img {
   transform: rotate(296deg);
   background: #b369aaa6;
   box-shadow: 20px 0px 7px 4px #b369aa75;
-  filter: blur(3px);
+  filter: blur(1px);
+}
+
+.watercolor-51 {
+  top: 353px;
+  left: 290px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  transform: rotate(266deg);
+  background: linear-gradient(
+    231deg,
+    #4e19a0 0,
+    #6c19a085 15%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  filter: blur(1px);
+}
+
+.watercolor-51 {
+  top: 350px;
+  left: 365px;
+  border-radius: 50%;
+  width: 54px;
+  height: 72px;
+  transform: rotate(130deg);
+  background: none;
+  box-shadow: 7px 0px 7px 1px #6c19a085;
+  filter: blur(2px);
+}
+
+.watercolor-52 {
+  top: 350px;
+  left: 365px;
+  border-radius: 50%;
+  width: 59px;
+  height: 77px;
+  transform: rotate(130deg);
+  background: none;
+  box-shadow: 2px 0px 7px 2px #c454a0;
+  filter: blur(2px);
+}
+.watercolor-53 {
+  top: 360px;
+  left: 344px;
+  border-radius: 50%;
+  width: 35px;
+  height: 15px;
+  transform: rotate(14deg);
+  background: #e5408f;
+  box-shadow: 18px 0px 7px 7px #e5408f;
+  filter: blur(1px);
+  opacity: 0.6;
+}
+.watercolor-54 {
+  top: 353px;
+  left: 334px;
+  border-radius: 50%;
+  width: 40px;
+  height: 24px;
+  transform: rotate(359deg);
+  /* background: #3d01499d; */
+  box-shadow: 38px 10px 7px 4px #3d01499d;
+  filter: blur(1px);
+
+  opacity: 0.7;
+}
+.watercolor-55 {
+  top: 372px;
+  left: 384px;
+  border-radius: 50%;
+  width: 40px;
+  height: 8px;
+  transform: rotate(174deg);
+  background: #b369aa;
+  box-shadow: 20px 0px 7px 4px #b369aa;
+  filter: blur(1px);
+}
+.watercolor-55 {
+  top: 308px;
+  left: 386px;
+  border-radius: 50%;
+  width: 35px;
+  height: 69px;
+  transform: rotate(80deg);
+  background: none;
+  box-shadow: 17px 0px 10px 1px #e11574;
+  filter: blur(1px);
+}
+
+.watercolor-57 {
+  top: 331px;
+  left: 373px;
+  border-radius: 50%;
+  width: 10px;
+  height: 25px;
+  transform: rotate(100deg);
+  background: none;
+  box-shadow: 4px 0px 5px 0px #290249e8;
+  filter: blur(1px);
+}
+.watercolor-58 {
+  top: 337px;
+  left: 398px;
+  border-radius: 50%;
+  width: 12px;
+  height: 26px;
+  transform: rotate(112deg);
+  background: none;
+  box-shadow: 4px 0px 5px 0px #290249e8;
+  filter: blur(1px);
+  opacity: 0.7;
+}
+.watercolor-59 {
+  top: 391px;
+  left: 385px;
+  border-radius: 50%;
+  width: 11px;
+  height: 33px;
+  transform: rotate(273deg);
+  background: #e11574;
+  box-shadow: 7px 11px 14px 3px #73096b;
+  filter: blur(2px);
+}
+.watercolor-60 {
+  top: 348px;
+  left: 373px;
+  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
+  width: 42px;
+  height: 17px;
+  transform: rotate(28deg);
+  background: #12a9c0;
+  box-shadow: 0px -7px 7px 3px #12a9c0;
+  filter: blur(2px);
 }
 .watercolor {
-  filter: blur(0.2px);
+  filter: blur(1.5px);
 }

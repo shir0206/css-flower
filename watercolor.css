@@ -2059,6 +2059,45 @@ img {
   box-shadow: 0px -7px 7px 3px #12a9c0;
   filter: blur(2px);
 }
-.watercolor {
-  filter: blur(1.5px);
+
+.watercolor-61 {
+  top: 390px;
+  left: 343px;
+  border-radius: 50%;
+  width: 28px;
+  height: 8px;
+  transform: rotate(48deg);
+  background: #572b6d;
+  box-shadow: 13px 0px 7px 2px #b369aa;
+  filter: blur(2px);
+  opacity: 0.8;
 }
+
+.watercolor-62 {
+  top: 308px;
+  left: 424px;
+  border-radius: 50%;
+  width: 14px;
+  height: 22px;
+  transform: rotate(112deg);
+  background: #e11675;
+  box-shadow: 14px 12px 10px 11px #e11675ad;
+  filter: blur(2px);
+  opacity: 0.8;
+}
+
+.watercolor-63 {
+  top: 286px;
+  left: 361px;
+  border-radius: 50%;
+  width: 30px;
+  height: 28px;
+  transform: rotate(96deg);
+  background: #e11675;
+  box-shadow: 18px -9px 10px 14px #e11675;
+  filter: blur(2px);
+  opacity: 0.6;
+}
+/* .watercolor {
+  filter: blur(1.5px);
+} */

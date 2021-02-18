@@ -2266,28 +2266,28 @@ img {
 }
 
 .watercolor-79 {
-  top: 109px;
-  left: 222px;
+  top: 89px;
+  left: 217px;
   border-radius: 50%;
-  width: 35px;
-  height: 73px;
-  transform: rotate(344deg);
-  background: none;
+  width: 45px;
+  height: 85px;
+  transform: rotate(325deg);
+  background: #e115745c;
   box-shadow: 15px 1px 12px -1px #e11574;
-  filter: blur(2px);
+  filter: blur(4px);
 }
 
 .watercolor-80 {
   top: 138px;
-  left: 266px;
+  left: 268px;
   border-radius: 46%;
-  width: 15px;
+  width: 7px;
   height: 35px;
-  transform: rotate(183deg);
+  transform: rotate(189deg);
   background: #050371;
   box-shadow: 0px -7px 0px 5px #0010ca;
   filter: blur(7px);
-  opacity: 0.5;
+  opacity: 0.45;
 }
 
 .watercolor-81 {
@@ -2410,7 +2410,7 @@ img {
   height: 50px;
   transform: rotate(163deg);
   background: none;
-  box-shadow: 15px -26px 10px -1px #e11574f7;
+  box-shadow: 15px -26px 10px -1px #e1155bf7;
   filter: blur(2px);
 }
 .watercolor-91 {
@@ -2451,7 +2451,7 @@ img {
   filter: blur(1px);
   opacity: 0.4;
 }
-.watercolor-94 {
+/* .watercolor-94 {
   top: -7px;
   left: 217px;
   border-radius: 50%;
@@ -2462,7 +2462,7 @@ img {
   box-shadow: 14px 12px 10px 1px #e115747d;
   filter: blur(1px);
   opacity: 0.4;
-}
+} */
 
 .watercolor-95 {
   top: 4px;
@@ -2514,61 +2514,83 @@ img {
   box-shadow: 5px -14px 12px 11px #887db2;
   filter: blur(4px);
 }
-
 .watercolor-99 {
-  top: 127px;
-  left: 314px;
-  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
-  width: 10px;
-  height: 15px;
-  transform: rotate(-52deg);
-  background: #103358;
-  box-shadow: 0px -9px 0px 4px #065391;
-  filter: blur(3px);
+  top: 103px;
+  left: 263px;
+  border-radius: 50%;
+  width: 70px;
+  height: 100px;
+  transform: rotate(13deg);
+  background: none;
+  box-shadow: 5px 9px 14px 2px #c454a0;
+  filter: blur(2px);
 }
 .watercolor-100 {
-  top: 120px;
-  left: 306px;
-  border-radius: 46%;
-  width: 25px;
-  height: 25px;
-  transform: rotate(220deg);
-  background: #0300b5;
-  box-shadow: 0px -7px 0px 5px #0010ca;
-  filter: blur(9px);
-  opacity: 0.4;
-}
-.watercolor-101 {
-  top: 66px;
-  left: 282px;
+  top: 121px;
+  left: 259px;
   border-radius: 50%;
-  width: 15px;
-  height: 10px;
-  transform: rotate(127deg);
+  width: 64px;
+  height: 82px;
+  transform: rotate(19deg);
   background: none;
-  box-shadow: 8px 0px 5px 0px #150a82e8;
-  filter: blur(1px);
-  opacity: 0.3;
+  box-shadow: 11px 0px 7px 1px #6c19a085;
+  filter: blur(2px);
+}
+
+.watercolor-101 {
+  top: 70px;
+  left: 313px;
+  border-radius: 50%;
+  width: 31px;
+  height: 30px;
+  transform: rotate(151deg);
+  background: none;
+  box-shadow: 13px 4px 11px -5px #c454a0;
+  filter: blur(2px);
 }
 .watercolor-102 {
-  top: 86px;
-  left: 281px;
-  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
-  width: 11px;
-  height: 34px;
-  transform: rotate(152deg);
-  background: #e11574;
-  box-shadow: 0px -4px 0px 7px #e43f90b0;
-  filter: blur(3px);
+  top: 79px;
+  left: 319px;
+  border-radius: 50%;
+  width: 14px;
+  height: 22px;
+  transform: rotate(150deg);
+  background: none;
+  box-shadow: 11px 0px 7px -3px #6c19a085;
+  filter: blur(2px);
 }
 .watercolor-103 {
-  top: 127px;
-  left: 295px;
-  border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
-  width: 36px;
-  height: 20px;
-  transform: rotate(241deg);
-  background: #0a336a;
-  box-shadow: 0px -4px 0px 7px #2149a9;
-  filter: blur(5px);
+  top: 163px;
+  left: 206px;
+  border-radius: 50%;
+  width: 90px;
+  height: 55px;
+  transform: rotate(16deg);
+  background: none;
+  box-shadow: -10px 15px 10px 0px #e11574;
+  filter: blur(1px);
+}
+.watercolor-104 {
+  top: 183px;
+  left: 237px;
+  border-radius: 50%;
+  width: 37px;
+  height: 35px;
+  transform: rotate(296deg);
+  background: #b369aaa6;
+  box-shadow: 20px 0px 7px 4px #b369aa75;
+  filter: blur(4px);
+}
+
+.watercolor-105 {
+  top: 161px;
+  left: 263px;
+  border-radius: 50%;
+  width: 24px;
+  height: 23px;
+  transform: rotate(134deg);
+  background: #052558;
+  box-shadow: 18px 0px 7px 20px #310050;
+  filter: blur(6px);
+  opacity: 0.6;
 }

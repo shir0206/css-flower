@@ -1,6 +1,10 @@
 .watercolor-flower-cont {
   width: 564px;
   height: 564px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .outline {
@@ -8,7 +12,7 @@
 }
 .outline-1 {
   top: 140px;
-  left: 128px;
+  left: 25px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-top: 3px solid #000;
   width: 20px;
@@ -17,7 +21,7 @@
 }
 .outline-2 {
   top: 159px;
-  left: 144px;
+  left: 41px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 5px;
@@ -27,7 +31,7 @@
 
 .outline-3 {
   top: 175px;
-  left: 178px;
+  left: 75px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 22px;
@@ -37,7 +41,7 @@
 
 .outline-4 {
   top: 215px;
-  left: 230px;
+  left: 127px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 5px;
@@ -46,7 +50,7 @@
 }
 .outline-5 {
   top: 215px;
-  left: 260px;
+  left: 157px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 5px;
@@ -56,7 +60,7 @@
 
 .outline-6 {
   top: 140px;
-  left: 190px;
+  left: 87px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 10px;
@@ -66,7 +70,7 @@
 
 .outline-7 {
   top: 120px;
-  left: 180px;
+  left: 77px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 4px solid #000;
   border-bottom: 4px solid #000;
@@ -77,7 +81,7 @@
 
 .outline-8 {
   top: 170px;
-  left: 210px;
+  left: 107px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 8px solid #000;
   border-top: 2px solid #000;
@@ -88,7 +92,7 @@
 
 .outline-9 {
   top: 190px;
-  left: 245px;
+  left: 142px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 8px solid #000;
@@ -99,7 +103,7 @@
 
 .outline-10 {
   top: 145px;
-  left: 280px;
+  left: 177px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 4px solid #000;
@@ -110,7 +114,7 @@
 
 .outline-11 {
   top: 165px;
-  left: 275px;
+  left: 172px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-right: 2px solid #000;
   border-top: 2px solid #000;
@@ -121,7 +125,7 @@
 
 .outline-12 {
   top: 185px;
-  left: 277px;
+  left: 174px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-right: 4px solid #000;
   width: 5px;
@@ -130,7 +134,7 @@
 
 .outline-13 {
   top: 72px;
-  left: 274px;
+  left: 171px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   width: 10px;
@@ -140,7 +144,7 @@
 
 .outline-14 {
   top: 130px;
-  left: 290px;
+  left: 187px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 10px;
@@ -150,7 +154,7 @@
 
 .outline-15 {
   top: 160px;
-  left: 295px;
+  left: 192px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   background: #000;
   width: 10px;
@@ -160,7 +164,7 @@
 
 .outline-16 {
   top: 200px;
-  left: 285px;
+  left: 182px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-right: 6px solid #000;
   width: 5px;
@@ -169,7 +173,7 @@
 
 .outline-17 {
   top: 177px;
-  left: 285px;
+  left: 182px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 3px solid #000;
   border-top: 4px solid #000;
@@ -180,7 +184,7 @@
 
 .outline-18 {
   top: 105px;
-  left: 310px;
+  left: 207px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 4px solid #000;
   border-top: 2px solid #000;
@@ -190,7 +194,7 @@
 }
 .outline-19 {
   top: 127px;
-  left: 315px;
+  left: 212px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-right: 6px solid #000;
   width: 10px;
@@ -200,7 +204,7 @@
 
 .outline-20 {
   top: 93px;
-  left: 298px;
+  left: 195px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 1px solid #000;
@@ -211,7 +215,7 @@
 
 .outline-21 {
   top: 218px;
-  left: 290px;
+  left: 187px;
   border-radius: 39% 61% 80% 20% / 82% 48% 20% 18%;
   border-left: 3px solid #000;
   border-top: 10px solid #000;
@@ -221,7 +225,7 @@
 }
 .outline-22 {
   top: 262px;
-  left: 293px;
+  left: 190px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 55px;
@@ -230,7 +234,7 @@
 }
 .outline-23 {
   top: 230px;
-  left: 306px;
+  left: 203px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 5px solid #000;
   width: 30px;
@@ -240,7 +244,7 @@
 
 .outline-24 {
   top: 295px;
-  left: 290px;
+  left: 187px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 40px;
@@ -250,7 +254,7 @@
 
 .outline-25 {
   top: 325px;
-  left: 268px;
+  left: 165px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-bottom: 4px solid #000;
   width: 45px;
@@ -260,7 +264,7 @@
 
 .outline-26 {
   top: 345px;
-  left: 269px;
+  left: 166px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 1px solid #000;
@@ -271,7 +275,7 @@
 
 .outline-27 {
   top: 365px;
-  left: 220px;
+  left: 117px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-bottom: 4px solid #000;
   width: 55px;
@@ -281,7 +285,7 @@
 
 .outline-28 {
   top: 326px;
-  left: 183px;
+  left: 80px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 18px;
@@ -291,7 +295,7 @@
 
 .outline-29 {
   top: 336px;
-  left: 161px;
+  left: 58px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 40px;
@@ -301,7 +305,7 @@
 
 .outline-31 {
   top: 363px;
-  left: 165px;
+  left: 62px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 10px;
@@ -311,7 +315,7 @@
 
 .outline-32 {
   top: 328px;
-  left: 173px;
+  left: 70px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 8px;
@@ -321,7 +325,7 @@
 
 .outline-36 {
   top: 316px;
-  left: 210px;
+  left: 107px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-bottom: 1px solid #000;
   width: 10px;
@@ -331,7 +335,7 @@
 
 .outline-37 {
   top: 316px;
-  left: 213px;
+  left: 110px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-bottom: 1.5px solid #000;
   width: 10px;
@@ -340,7 +344,7 @@
 }
 .outline-38 {
   top: 323px;
-  left: 219px;
+  left: 116px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-top: 1px solid #000;
   width: 20px;
@@ -350,7 +354,7 @@
 
 .outline-39 {
   top: 345px;
-  left: 217px;
+  left: 114px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-top: 2px solid #000;
   width: 28px;
@@ -360,7 +364,7 @@
 
 .outline-42 {
   top: 301px;
-  left: 250px;
+  left: 147px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2.5px solid #000;
   width: 5px;
@@ -369,7 +373,7 @@
 }
 .outline-43 {
   top: 315px;
-  left: 241px;
+  left: 138px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-right: 2px solid #000;
   height: 25px;
@@ -378,7 +382,7 @@
 }
 .outline-44 {
   top: 330px;
-  left: 205px;
+  left: 102px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 25px;
@@ -388,7 +392,7 @@
 
 .outline-45 {
   top: 329px;
-  left: 221px;
+  left: 118px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 20px;
@@ -398,7 +402,7 @@
 
 .outline-46 {
   top: 399px;
-  left: 119px;
+  left: 16px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 38px;
@@ -408,7 +412,7 @@
 
 .outline-47 {
   top: 358px;
-  left: 177px;
+  left: 74px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 25px;
@@ -418,7 +422,7 @@
 
 .outline-48 {
   top: 371px;
-  left: 199px;
+  left: 96px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 3px;
@@ -427,7 +431,7 @@
 }
 .outline-49 {
   top: 345px;
-  left: 221px;
+  left: 118px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 2px solid #000;
@@ -437,7 +441,7 @@
 }
 .outline-50 {
   top: 359px;
-  left: 217px;
+  left: 114px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 2px solid #000;
@@ -447,7 +451,7 @@
 }
 .outline-51 {
   top: 365px;
-  left: 217px;
+  left: 114px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 3px solid #000;
   width: 10px;
@@ -457,7 +461,7 @@
 
 .outline-52 {
   top: 388px;
-  left: 218px;
+  left: 115px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 5px;
@@ -467,7 +471,7 @@
 
 .outline-53 {
   top: 389px;
-  left: 213px;
+  left: 110px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 1px solid #000;
   width: 1px;
@@ -476,7 +480,7 @@
 }
 .outline-54 {
   top: 400px;
-  left: 197px;
+  left: 94px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 3px solid #000;
   width: 17px;
@@ -486,7 +490,7 @@
 
 .outline-55 {
   top: 400px;
-  left: 197px;
+  left: 94px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 1px solid #000;
@@ -497,7 +501,7 @@
 
 .outline-56 {
   top: 437px;
-  left: 187px;
+  left: 84px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 1px solid #000;
   width: 10px;
@@ -507,7 +511,7 @@
 
 .outline-57 {
   top: 437px;
-  left: 193px;
+  left: 90px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 2px solid #000;
   width: 2px;
@@ -517,7 +521,7 @@
 
 .outline-61 {
   top: 372px;
-  left: 218px;
+  left: 115px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-bottom: 2px solid #000;
   width: 30px;
@@ -527,7 +531,7 @@
 
 .outline-62 {
   top: 392px;
-  left: 228px;
+  left: 125px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
@@ -538,7 +542,7 @@
 
 .outline-63 {
   top: 436px;
-  left: 205px;
+  left: 102px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 80px;
@@ -547,7 +551,7 @@
 }
 .outline-64 {
   top: 477px;
-  left: 252px;
+  left: 149px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 10px;
@@ -556,7 +560,7 @@
 }
 .outline-65 {
   top: 488px;
-  left: 252px;
+  left: 149px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 20px;
@@ -565,7 +569,7 @@
 }
 .outline-66 {
   top: 290px;
-  left: 376px;
+  left: 273px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 55px;
@@ -574,7 +578,7 @@
 }
 .outline-67 {
   top: 319px;
-  left: 315px;
+  left: 212px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 55px;
@@ -584,7 +588,7 @@
 
 .outline-68 {
   top: 318px;
-  left: 333px;
+  left: 230px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 34px;
@@ -593,7 +597,7 @@
 }
 .outline-69 {
   top: 303px;
-  left: 350px;
+  left: 247px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 2px solid #000;
   width: 16px;
@@ -602,7 +606,7 @@
 }
 .outline-70 {
   top: 331px;
-  left: 335px;
+  left: 232px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 12px;
@@ -611,7 +615,7 @@
 }
 .outline-71 {
   top: 344px;
-  left: 330px;
+  left: 227px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 40px;
@@ -621,7 +625,7 @@
 
 .outline-72 {
   top: 336px;
-  left: 364px;
+  left: 261px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 20px;
@@ -630,7 +634,7 @@
 }
 .outline-73 {
   top: 364px;
-  left: 320px;
+  left: 217px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 15px;
@@ -640,7 +644,7 @@
 
 .outline-74 {
   top: 361px;
-  left: 325px;
+  left: 222px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 5px solid #000;
   width: 5px;
@@ -649,7 +653,7 @@
 }
 .outline-75 {
   top: 376px;
-  left: 335px;
+  left: 232px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 15px;
@@ -658,7 +662,7 @@
 }
 .outline-76 {
   top: 390px;
-  left: 358px;
+  left: 255px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 10px;
@@ -667,7 +671,7 @@
 }
 .outline-77 {
   top: 392px;
-  left: 371px;
+  left: 268px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 4px solid #000;
   width: 10px;
@@ -676,7 +680,7 @@
 }
 .outline-78 {
   top: 387px;
-  left: 381px;
+  left: 278px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 53px;
@@ -686,7 +690,7 @@
 
 .outline-79 {
   top: 387px;
-  left: 339px;
+  left: 236px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 1px solid #000;
   width: 19px;
@@ -696,7 +700,7 @@
 
 .outline-80 {
   top: 386px;
-  left: 340px;
+  left: 237px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-bottom: 1px solid #000;
   width: 22px;
@@ -706,7 +710,7 @@
 
 .outline-81 {
   top: 348px;
-  left: 315px;
+  left: 212px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 17px;
@@ -716,7 +720,7 @@
 
 .outline-82 {
   top: 360px;
-  left: 297px;
+  left: 194px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 27px;
@@ -726,7 +730,7 @@
 
 .outline-83 {
   top: 375px;
-  left: 282px;
+  left: 179px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 21px;
@@ -736,7 +740,7 @@
 
 .outline-84 {
   top: 389px;
-  left: 280px;
+  left: 177px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 11px;
@@ -745,7 +749,7 @@
 }
 .outline-85 {
   top: 390px;
-  left: 287px;
+  left: 184px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 33px;
@@ -755,7 +759,7 @@
 
 .outline-86 {
   top: 394px;
-  left: 317px;
+  left: 214px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 23px;
@@ -765,7 +769,7 @@
 
 .outline-87 {
   top: 398px;
-  left: 338px;
+  left: 235px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 7px;
@@ -775,7 +779,7 @@
 
 .outline-91 {
   top: 402px;
-  left: 260px;
+  left: 157px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 29px;
@@ -784,7 +788,7 @@
 }
 .outline-92 {
   top: 420px;
-  left: 251px;
+  left: 148px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   border-left: 2px solid #000;
@@ -795,7 +799,7 @@
 
 .outline-93 {
   top: 427px;
-  left: 255px;
+  left: 152px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   background: #000;
   width: 17px;
@@ -805,7 +809,7 @@
 
 .outline-94 {
   top: 437px;
-  left: 254px;
+  left: 151px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 11px;
@@ -815,7 +819,7 @@
 
 .outline-96 {
   top: 437px;
-  left: 269px;
+  left: 166px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-left: 2px solid #000;
   width: 7px;
@@ -825,7 +829,7 @@
 
 .outline-97 {
   top: 484px;
-  left: 245px;
+  left: 142px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 5px solid #000;
   width: 5px;
@@ -839,7 +843,7 @@
 }
 .outline-98 {
   top: 456px;
-  left: 275px;
+  left: 172px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 10px;
@@ -849,7 +853,7 @@
 
 .outline-99 {
   top: 458px;
-  left: 323px;
+  left: 220px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 2px solid #000;
   border-bottom: 1px solid #000;
@@ -860,7 +864,7 @@
 
 .outline-100 {
   top: 464px;
-  left: 328px;
+  left: 225px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 1px solid #000;
   width: 15px;
@@ -870,7 +874,7 @@
 
 .outline-101 {
   top: 470px;
-  left: 303px;
+  left: 200px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 1px solid #000;
   width: 28px;
@@ -880,7 +884,7 @@
 
 .outline-102 {
   top: 480px;
-  left: 303px;
+  left: 200px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-right: 2px solid #000;
   border-bottom: 1px solid #000;
@@ -890,7 +894,7 @@
 }
 .outline-103 {
   top: 491px;
-  left: 283px;
+  left: 180px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 26px;
@@ -900,7 +904,7 @@
 
 .outline-104 {
   top: 494px;
-  left: 276px;
+  left: 173px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 2px solid #000;
   border-top: 1px solid #000;
@@ -910,7 +914,7 @@
 }
 .outline-105 {
   top: 542px;
-  left: 262px;
+  left: 159px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 61px;
@@ -920,7 +924,7 @@
 
 .outline-106 {
   top: 493.5px;
-  left: 273px;
+  left: 170px;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 3px solid #000;
   border-top: 1px solid #000;
@@ -931,7 +935,7 @@
 
 .outline-107 {
   top: 513px;
-  left: 246px;
+  left: 143px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 26px;
@@ -941,7 +945,7 @@
 
 .outline-108 {
   top: 531px;
-  left: 233px;
+  left: 130px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 45px;
@@ -950,7 +954,7 @@
 }
 .outline-109 {
   top: 557px;
-  left: 253px;
+  left: 150px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 3px solid #000;
   width: 36px;
@@ -960,7 +964,7 @@
 
 .outline-110 {
   top: 45px;
-  left: 255px;
+  left: 152px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 2px solid #000;
   width: 25px;
@@ -970,7 +974,7 @@
 
 .outline-111 {
   top: 78px;
-  left: 222px;
+  left: 119px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 4px solid #000;
   width: 55px;
@@ -980,7 +984,7 @@
 
 .outline-112 {
   top: 317px;
-  left: 165px;
+  left: 62px;
   border-radius: 50%;
   border-left: 2px solid #000;
   width: 6px;
@@ -990,7 +994,7 @@
 
 .outline-113 {
   top: 323px;
-  left: 193px;
+  left: 90px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 1px solid #000;
   width: 15px;
@@ -999,7 +1003,7 @@
 }
 .outline-spot-1 {
   top: 397px;
-  left: 185px;
+  left: 82px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 7px;
@@ -1009,7 +1013,7 @@
 
 .outline-spot-2 {
   top: 413px;
-  left: 180px;
+  left: 77px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1018,7 +1022,7 @@
 }
 .outline-spot-3 {
   top: 425px;
-  left: 180px;
+  left: 77px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1028,7 +1032,7 @@
 
 .outline-spot-4 {
   top: 381px;
-  left: 325px;
+  left: 222px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 5px;
@@ -1038,7 +1042,7 @@
 
 .outline-spot-5 {
   top: 381px;
-  left: 336px;
+  left: 233px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1048,7 +1052,7 @@
 
 .outline-spot-6 {
   top: 389px;
-  left: 337px;
+  left: 234px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1057,7 +1061,7 @@
 }
 .outline-spot-7 {
   top: 193px;
-  left: 242px;
+  left: 139px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 5px;
@@ -1067,7 +1071,7 @@
 
 .outline-spot-8 {
   top: 205px;
-  left: 244px;
+  left: 141px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1077,7 +1081,7 @@
 
 .outline-spot-9 {
   top: 198px;
-  left: 249px;
+  left: 146px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1087,7 +1091,7 @@
 
 .outline-spot-10 {
   top: 210px;
-  left: 300px;
+  left: 197px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1097,7 +1101,7 @@
 
 .outline-spot-11 {
   top: 215px;
-  left: 296px;
+  left: 193px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1107,7 +1111,7 @@
 
 .outline-spot-12 {
   top: 332px;
-  left: 338px;
+  left: 235px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1117,7 +1121,7 @@
 
 .outline-spot-13 {
   top: 330px;
-  left: 350px;
+  left: 247px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1127,7 +1131,7 @@
 
 .outline-spot-14 {
   top: 420px;
-  left: 268px;
+  left: 165px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1136,7 +1140,7 @@
 }
 .outline-spot-15 {
   top: 408px;
-  left: 263px;
+  left: 160px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1145,7 +1149,7 @@
 }
 .outline-spot-16 {
   top: 477px;
-  left: 257px;
+  left: 154px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1155,7 +1159,7 @@
 
 .outline-spot-17 {
   top: 492px;
-  left: 303px;
+  left: 200px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1165,7 +1169,7 @@
 
 .outline-spot-18 {
   top: 492px;
-  left: 318px;
+  left: 215px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1175,7 +1179,7 @@
 
 .outline-spot-19 {
   top: 496px;
-  left: 335px;
+  left: 232px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1184,7 +1188,7 @@
 }
 .outline-spot-20 {
   top: 504px;
-  left: 317px;
+  left: 214px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1193,7 +1197,7 @@
 }
 .outline-spot-21 {
   top: 511px;
-  left: 330px;
+  left: 227px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1203,7 +1207,7 @@
 
 .outline-spot-22 {
   top: 516px;
-  left: 237px;
+  left: 134px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1213,7 +1217,7 @@
 
 .outline-spot-23 {
   top: 512px;
-  left: 246px;
+  left: 143px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1223,7 +1227,7 @@
 
 .outline-spot-24 {
   top: 516px;
-  left: 243px;
+  left: 140px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1232,7 +1236,7 @@
 }
 .outline-spot-25 {
   top: 517px;
-  left: 248px;
+  left: 145px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1241,7 +1245,7 @@
 }
 .outline-spot-26 {
   top: 320px;
-  left: 170px;
+  left: 67px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1250,7 +1254,7 @@
 }
 .outline-spot-27 {
   top: 326px;
-  left: 171px;
+  left: 68px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1259,7 +1263,7 @@
 }
 .outline-spot-28 {
   top: 329px;
-  left: 174px;
+  left: 71px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1268,7 +1272,7 @@
 }
 .outline-spot-29 {
   top: 322px;
-  left: 180px;
+  left: 77px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 4px;
@@ -1277,7 +1281,7 @@
 }
 .outline-spot-30 {
   top: 335px;
-  left: 226px;
+  left: 123px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1286,7 +1290,7 @@
 }
 .outline-spot-31 {
   top: 337px;
-  left: 222px;
+  left: 119px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 2px;
@@ -1295,7 +1299,7 @@
 }
 .outline-spot-32 {
   top: 340px;
-  left: 226px;
+  left: 123px;
   border-radius: 46% 54% 70% 30% / 59% 31% 69% 41%;
   background: #000;
   width: 3px;
@@ -1308,7 +1312,7 @@
 
 .watercolor-1 {
   top: 495px;
-  left: 233px;
+  left: 130px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 12px;
   height: 30px;
@@ -1320,7 +1324,7 @@
 
 .watercolor-2 {
   top: 500px;
-  left: 293px;
+  left: 190px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 11px;
   height: 16px;
@@ -1332,7 +1336,7 @@
 
 .watercolor-3 {
   top: 522px;
-  left: 299px;
+  left: 196px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 19px;
   height: 16px;
@@ -1344,7 +1348,7 @@
 
 .watercolor-4 {
   top: 496px;
-  left: 298px;
+  left: 195px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 16px;
   height: 27px;
@@ -1356,7 +1360,7 @@
 
 .watercolor-5 {
   top: 520px;
-  left: 317px;
+  left: 214px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 24px;
   height: 24px;
@@ -1368,7 +1372,7 @@
 
 .watercolor-6 {
   top: 489px;
-  left: 309px;
+  left: 206px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 6px;
   height: 39px;
@@ -1380,7 +1384,7 @@
 
 .watercolor-7 {
   top: 498px;
-  left: 310px;
+  left: 207px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 13px;
   height: 22px;
@@ -1392,7 +1396,7 @@
 
 .watercolor-8 {
   top: 478px;
-  left: 313px;
+  left: 210px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 10px;
   height: 48px;
@@ -1404,7 +1408,7 @@
 
 .watercolor-9 {
   top: 484px;
-  left: 282px;
+  left: 179px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 100px;
   height: 105px;
@@ -1421,7 +1425,7 @@
 
 .watercolor-10 {
   top: 467px;
-  left: 282px;
+  left: 179px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 118px;
   height: 100px;
@@ -1438,7 +1442,7 @@
 
 .watercolor-43 {
   top: 353px;
-  left: 290px;
+  left: 187px;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -1453,7 +1457,7 @@
 }
 .watercolor-44 {
   top: 380px;
-  left: 294px;
+  left: 191px;
   border-radius: 50%;
   width: 0px;
   height: 26px;
@@ -1464,7 +1468,7 @@
 }
 .watercolor-45 {
   top: 356px;
-  left: 319px;
+  left: 216px;
   border-radius: 50%;
   width: 35px;
   height: 15px;
@@ -1476,7 +1480,7 @@
 
 .watercolor-47 {
   top: 352px;
-  left: 368px;
+  left: 265px;
   border-radius: 50%;
   width: 41px;
   height: 18px;
@@ -1488,7 +1492,7 @@
 
 .watercolor-49 {
   top: 344px;
-  left: 327px;
+  left: 224px;
   border-radius: 50%;
   width: 16px;
   height: 10px;
@@ -1500,7 +1504,7 @@
 
 .watercolor-50 {
   top: 330px;
-  left: 335px;
+  left: 232px;
   border-radius: 50%;
   width: 37px;
   height: 35px;
@@ -1512,7 +1516,7 @@
 
 .watercolor-51 {
   top: 350px;
-  left: 365px;
+  left: 262px;
   border-radius: 50%;
   width: 54px;
   height: 72px;
@@ -1524,7 +1528,7 @@
 
 .watercolor-52 {
   top: 341px;
-  left: 365px;
+  left: 262px;
   border-radius: 50%;
   width: 59px;
   height: 92px;
@@ -1535,7 +1539,7 @@
 }
 .watercolor-53 {
   top: 360px;
-  left: 344px;
+  left: 241px;
   border-radius: 50%;
   width: 35px;
   height: 15px;
@@ -1548,7 +1552,7 @@
 
 .watercolor-54 {
   top: 353px;
-  left: 334px;
+  left: 231px;
   border-radius: 50%;
   width: 40px;
   height: 24px;
@@ -1560,7 +1564,7 @@
 }
 .watercolor-55 {
   top: 308px;
-  left: 386px;
+  left: 283px;
   border-radius: 50%;
   width: 35px;
   height: 69px;
@@ -1572,7 +1576,7 @@
 
 .watercolor-57 {
   top: 331px;
-  left: 373px;
+  left: 270px;
   border-radius: 50%;
   width: 10px;
   height: 25px;
@@ -1584,7 +1588,7 @@
 }
 .watercolor-58 {
   top: 337px;
-  left: 398px;
+  left: 295px;
   border-radius: 50%;
   width: 12px;
   height: 26px;
@@ -1597,7 +1601,7 @@
 
 .watercolor-61 {
   top: 390px;
-  left: 343px;
+  left: 240px;
   border-radius: 50%;
   width: 28px;
   height: 8px;
@@ -1610,7 +1614,7 @@
 
 .watercolor-62 {
   top: 308px;
-  left: 424px;
+  left: 321px;
   border-radius: 50%;
   width: 14px;
   height: 22px;
@@ -1623,7 +1627,7 @@
 
 .watercolor-63 {
   top: 286px;
-  left: 361px;
+  left: 258px;
   border-radius: 50%;
   width: 30px;
   height: 28px;
@@ -1636,7 +1640,7 @@
 
 .watercolor-64 {
   top: 260px;
-  left: 428px;
+  left: 325px;
   border-radius: 50%;
   width: 15px;
   height: 20px;
@@ -1647,7 +1651,7 @@
 }
 .watercolor-65 {
   top: 277px;
-  left: 425px;
+  left: 322px;
   border-radius: 50%;
   width: 19px;
   height: 24px;
@@ -1659,7 +1663,7 @@
 
 .watercolor-66 {
   top: 250px;
-  left: 352px;
+  left: 249px;
   border-radius: 50%;
   width: 71px;
   height: 131px;
@@ -1671,7 +1675,7 @@
 
 .watercolor-68 {
   top: 274px;
-  left: 376px;
+  left: 273px;
   border-radius: 50%;
   width: 22px;
   height: 20px;
@@ -1682,7 +1686,7 @@
 }
 .watercolor-69 {
   top: 285px;
-  left: 358px;
+  left: 255px;
   border-radius: 50%;
   width: 32px;
   height: 13px;
@@ -1695,7 +1699,7 @@
 
 .watercolor-70 {
   top: 274px;
-  left: 366px;
+  left: 263px;
   border-radius: 50%;
   width: 27px;
   height: 20px;
@@ -1707,7 +1711,7 @@
 
 .watercolor-71 {
   top: 308px;
-  left: 386px;
+  left: 283px;
   border-radius: 50%;
   width: 35px;
   height: 69px;
@@ -1718,7 +1722,7 @@
 }
 .watercolor-72 {
   top: 354px;
-  left: 311px;
+  left: 208px;
   border-radius: 50%;
   width: 35px;
   height: 69px;
@@ -1730,7 +1734,7 @@
 
 .watercolor-60 {
   top: 348px;
-  left: 373px;
+  left: 270px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 42px;
   height: 17px;
@@ -1743,7 +1747,7 @@
 
 .watercolor-59 {
   top: 391px;
-  left: 385px;
+  left: 282px;
   border-radius: 50%;
   width: 11px;
   height: 33px;
@@ -1755,7 +1759,7 @@
 }
 .watercolor-48 {
   top: 352px;
-  left: 377px;
+  left: 274px;
   border-radius: 50%;
   width: 24px;
   height: 23px;
@@ -1767,7 +1771,7 @@
 }
 .watercolor-67 {
   top: 242px;
-  left: 373px;
+  left: 270px;
   border-radius: 50%;
   width: 31px;
   height: 93px;
@@ -1780,7 +1784,7 @@
 
 .watercolor-46 {
   top: 330px;
-  left: 399px;
+  left: 296px;
   border-radius: 50%;
   width: 21px;
   height: 17px;
@@ -1793,7 +1797,7 @@
 
 .watercolor-76 {
   top: 201px;
-  left: 259px;
+  left: 156px;
   border-radius: 50%;
   width: 25px;
   height: 23px;
@@ -1805,7 +1809,7 @@
 
 .watercolor-77 {
   top: 176px;
-  left: 252px;
+  left: 149px;
   border-radius: 46%;
   width: 25px;
   height: 35px;
@@ -1818,7 +1822,7 @@
 
 .watercolor-78 {
   top: 145px;
-  left: 219px;
+  left: 116px;
   border-radius: 50%;
   width: 35px;
   height: 73px;
@@ -1830,7 +1834,7 @@
 
 .watercolor-79 {
   top: 119px;
-  left: 217px;
+  left: 114px;
   border-radius: 50%;
   width: 45px;
   height: 105px;
@@ -1841,7 +1845,7 @@
 }
 .watercolor-80 {
   top: 138px;
-  left: 268px;
+  left: 165px;
   border-radius: 46%;
   width: 7px;
   height: 35px;
@@ -1854,7 +1858,7 @@
 
 .watercolor-81 {
   top: 119px;
-  left: 230px;
+  left: 127px;
   border-radius: 50%;
   width: 14px;
   height: 22px;
@@ -1866,7 +1870,7 @@
 }
 .watercolor-82 {
   top: 119px;
-  left: 178px;
+  left: 75px;
   border-radius: 50%;
   width: 29px;
   height: 41px;
@@ -1878,7 +1882,7 @@
 }
 .watercolor-83 {
   top: 153px;
-  left: 229px;
+  left: 126px;
   border-radius: 50%;
   width: 39px;
   height: 23px;
@@ -1890,7 +1894,7 @@
 }
 .watercolor-84 {
   top: 174px;
-  left: 213px;
+  left: 110px;
   border-radius: 50%;
   width: 19px;
   height: 25px;
@@ -1901,7 +1905,7 @@
 }
 .watercolor-85 {
   top: 142px;
-  left: 202px;
+  left: 99px;
   border-radius: 50%;
   width: 13px;
   height: 45px;
@@ -1913,7 +1917,7 @@
 }
 .watercolor-86 {
   top: 95px;
-  left: 218px;
+  left: 115px;
   border-radius: 50%;
   width: 25px;
   height: 16px;
@@ -1925,7 +1929,7 @@
 }
 .watercolor-87 {
   top: 87px;
-  left: 207px;
+  left: 104px;
   border-radius: 50%;
   width: 17px;
   height: 20px;
@@ -1937,7 +1941,7 @@
 }
 .watercolor-88 {
   top: 59px;
-  left: 197px;
+  left: 94px;
   border-radius: 50%;
   width: 14px;
   height: 16px;
@@ -1949,7 +1953,7 @@
 }
 .watercolor-89 {
   top: 109px;
-  left: 200px;
+  left: 97px;
   border-radius: 50%;
   width: 22px;
   height: 24px;
@@ -1961,7 +1965,7 @@
 }
 .watercolor-90 {
   top: 62px;
-  left: 181px;
+  left: 78px;
   border-radius: 50%;
   width: 30px;
   height: 50px;
@@ -1972,7 +1976,7 @@
 }
 .watercolor-91 {
   top: 88px;
-  left: 178px;
+  left: 75px;
   border-radius: 50%;
   width: 8px;
   height: 48px;
@@ -1985,7 +1989,7 @@
 
 .watercolor-92 {
   top: 104px;
-  left: 229px;
+  left: 126px;
   border-radius: 50%;
   width: 22px;
   height: 25px;
@@ -1997,7 +2001,7 @@
 }
 .watercolor-93 {
   top: 41px;
-  left: 193px;
+  left: 90px;
   border-radius: 50%;
   width: 15px;
   height: 20px;
@@ -2009,7 +2013,7 @@
 }
 .watercolor-95 {
   top: 43px;
-  left: 187px;
+  left: 84px;
   border-radius: 50%;
   width: 120px;
   height: 112px;
@@ -2025,7 +2029,7 @@
 }
 .watercolor-96 {
   top: 165px;
-  left: 290px;
+  left: 187px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 14px;
   height: 6px;
@@ -2036,7 +2040,7 @@
 }
 .watercolor-97 {
   top: 170px;
-  left: 288px;
+  left: 185px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 11px;
   height: 31px;
@@ -2047,7 +2051,7 @@
 }
 .watercolor-98 {
   top: 133px;
-  left: 261px;
+  left: 158px;
   border-radius: 50%;
   width: 22px;
   height: 21px;
@@ -2058,7 +2062,7 @@
 }
 .watercolor-99 {
   top: 103px;
-  left: 263px;
+  left: 160px;
   border-radius: 50%;
   width: 70px;
   height: 100px;
@@ -2069,7 +2073,7 @@
 }
 .watercolor-100 {
   top: 121px;
-  left: 259px;
+  left: 156px;
   border-radius: 50%;
   width: 64px;
   height: 82px;
@@ -2080,7 +2084,7 @@
 }
 .watercolor-101 {
   top: 70px;
-  left: 313px;
+  left: 210px;
   border-radius: 50%;
   width: 31px;
   height: 30px;
@@ -2091,7 +2095,7 @@
 }
 .watercolor-102 {
   top: 79px;
-  left: 319px;
+  left: 216px;
   border-radius: 50%;
   width: 14px;
   height: 22px;
@@ -2102,7 +2106,7 @@
 }
 .watercolor-103 {
   top: 165px;
-  left: 206px;
+  left: 103px;
   border-radius: 50%;
   width: 90px;
   height: 55px;
@@ -2113,7 +2117,7 @@
 }
 .watercolor-104 {
   top: 183px;
-  left: 237px;
+  left: 134px;
   border-radius: 50%;
   width: 37px;
   height: 35px;
@@ -2124,7 +2128,7 @@
 }
 .watercolor-105 {
   top: 161px;
-  left: 263px;
+  left: 160px;
   border-radius: 50%;
   width: 24px;
   height: 23px;
@@ -2136,7 +2140,7 @@
 }
 .watercolor-107 {
   top: 101px;
-  left: 231px;
+  left: 128px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 100px;
   height: 105px;
@@ -2152,7 +2156,7 @@
 }
 .watercolor-108 {
   top: 152px;
-  left: 303px;
+  left: 200px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 10px;
   height: 48px;
@@ -2163,7 +2167,7 @@
 }
 .watercolor-109 {
   top: 143px;
-  left: 293px;
+  left: 190px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 13px;
   height: 22px;
@@ -2174,7 +2178,7 @@
 }
 .watercolor-110 {
   top: 121px;
-  left: 289px;
+  left: 186px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 9px;
   height: 39px;
@@ -2185,7 +2189,7 @@
 }
 .watercolor-111 {
   top: 86px;
-  left: 255px;
+  left: 152px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 24px;
   height: 24px;
@@ -2196,7 +2200,7 @@
 }
 .watercolor-112 {
   top: 105px;
-  left: 264px;
+  left: 161px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 16px;
   height: 27px;
@@ -2208,7 +2212,7 @@
 
 .watercolor-114 {
   top: 196px;
-  left: 301px;
+  left: 198px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 11px;
   height: 16px;
@@ -2221,7 +2225,7 @@
 
 .watercolor-116 {
   top: 55px;
-  left: 239px;
+  left: 136px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 5px;
   height: 35px;
@@ -2233,7 +2237,7 @@
 }
 .watercolor-117 {
   top: 80px;
-  left: 276px;
+  left: 173px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 10px;
   height: 45px;
@@ -2245,7 +2249,7 @@
 }
 .watercolor-118 {
   top: 24px;
-  left: 206px;
+  left: 103px;
   border-radius: 50%;
   width: 31px;
   height: 39px;
@@ -2257,7 +2261,7 @@
 }
 .watercolor-119 {
   top: -52px;
-  left: 169px;
+  left: 66px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 88px;
   height: 216px;
@@ -2274,7 +2278,7 @@
 }
 .watercolor-120 {
   top: 41px;
-  left: 299px;
+  left: 196px;
   border-radius: 50%;
   width: 31px;
   height: 30px;
@@ -2286,7 +2290,7 @@
 }
 .watercolor-121 {
   top: 23px;
-  left: 190px;
+  left: 87px;
   border-radius: 50%;
   width: 107px;
   height: 112px;
@@ -2303,7 +2307,7 @@
 }
 .watercolor-122 {
   top: 78px;
-  left: 103px;
+  left: 0px;
   border-radius: 50%;
   width: 150px;
   height: 230px;
@@ -2319,7 +2323,7 @@
 }
 .watercolor-123 {
   top: 135px;
-  left: 161px;
+  left: 58px;
   border-radius: 50%;
   width: 31px;
   height: 93px;
@@ -2331,7 +2335,7 @@
 }
 .watercolor-124 {
   top: 114px;
-  left: 174px;
+  left: 71px;
   border-radius: 50%;
   width: 81px;
   height: 141px;
@@ -2342,7 +2346,7 @@
 }
 .watercolor-125 {
   top: 122px;
-  left: 164px;
+  left: 61px;
   border-radius: 50%;
   width: 24px;
   height: 23px;
@@ -2354,7 +2358,7 @@
 }
 .watercolor-126 {
   top: 139px;
-  left: 149px;
+  left: 46px;
   border-radius: 50%;
   width: 30px;
   height: 28px;
@@ -2366,7 +2370,7 @@
 }
 .watercolor-127 {
   top: 171px;
-  left: 168px;
+  left: 65px;
   border-radius: 50%;
   width: 32px;
   height: 13px;
@@ -2377,7 +2381,7 @@
 }
 .watercolor-128 {
   top: 146px;
-  left: 157px;
+  left: 54px;
   border-radius: 50%;
   width: 27px;
   height: 20px;
@@ -2388,7 +2392,7 @@
 }
 .watercolor-129 {
   top: 160px;
-  left: 164px;
+  left: 61px;
   border-radius: 50%;
   width: 5px;
   height: 30px;
@@ -2400,7 +2404,7 @@
 }
 .watercolor-130 {
   top: 219px;
-  left: 226px;
+  left: 123px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 42px;
   height: 17px;
@@ -2412,7 +2416,7 @@
 }
 .watercolor-131 {
   top: 78px;
-  left: 120px;
+  left: 17px;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -2427,7 +2431,7 @@
 }
 .watercolor-132 {
   top: 183px;
-  left: 169px;
+  left: 66px;
   border-radius: 50%;
   width: 0px;
   height: 26px;
@@ -2438,7 +2442,7 @@
 }
 .watercolor-133 {
   top: 130px;
-  left: 166px;
+  left: 63px;
   border-radius: 50%;
   width: 21px;
   height: 17px;
@@ -2450,7 +2454,7 @@
 }
 .watercolor-134 {
   top: 163px;
-  left: 173px;
+  left: 70px;
   border-radius: 50%;
   width: 41px;
   height: 18px;
@@ -2461,7 +2465,7 @@
 }
 .watercolor-135 {
   top: 129px;
-  left: 160px;
+  left: 57px;
   border-radius: 50%;
   width: 35px;
   height: 15px;
@@ -2472,7 +2476,7 @@
 }
 .watercolor-136 {
   top: 194px;
-  left: 181px;
+  left: 78px;
   border-radius: 50%;
   width: 37px;
   height: 35px;
@@ -2483,7 +2487,7 @@
 }
 .watercolor-137 {
   top: 216px;
-  left: 213px;
+  left: 110px;
   border-radius: 50%;
   width: 35px;
   height: 15px;
@@ -2495,7 +2499,7 @@
 }
 .watercolor-138 {
   top: 205px;
-  left: 176px;
+  left: 73px;
   border-radius: 50%;
   width: 40px;
   height: 24px;
@@ -2507,7 +2511,7 @@
 }
 .watercolor-139 {
   top: 226px;
-  left: 255px;
+  left: 152px;
   border-radius: 50%;
   width: 28px;
   height: 8px;
@@ -2519,7 +2523,7 @@
 }
 .watercolor-140 {
   top: 97px;
-  left: 154px;
+  left: 51px;
   border-radius: 50%;
   width: 23px;
   height: 37px;
@@ -2530,7 +2534,7 @@
 }
 .watercolor-141 {
   top: 77px;
-  left: 141px;
+  left: 38px;
   border-radius: 50%;
   width: 30px;
   height: 49px;
@@ -2541,7 +2545,7 @@
 }
 .watercolor-142 {
   top: 163px;
-  left: 210px;
+  left: 107px;
   border-radius: 50%;
   width: 14px;
   height: 22px;
@@ -2553,7 +2557,7 @@
 }
 .watercolor-143 {
   top: 111px;
-  left: 173px;
+  left: 70px;
   border-radius: 50%;
   width: 91px;
   height: 150px;
@@ -2564,7 +2568,7 @@
 }
 .watercolor-144 {
   top: 135px;
-  left: 151px;
+  left: 48px;
   border-radius: 50%;
   width: 31px;
   height: 93px;
@@ -2576,7 +2580,7 @@
 }
 .watercolor-145 {
   top: 142px;
-  left: 142px;
+  left: 39px;
   border-radius: 50%;
   width: 22px;
   height: 20px;
@@ -2588,7 +2592,7 @@
 
 .watercolor-150 {
   top: 381px;
-  left: 196px;
+  left: 93px;
   border-radius: 50%;
   width: 9px;
   height: 17px;
@@ -2601,7 +2605,7 @@
 
 .watercolor-159 {
   top: 302px;
-  left: 168px;
+  left: 65px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 13px;
   height: 29px;
@@ -2613,7 +2617,7 @@
 
 .watercolor-160 {
   top: 321px;
-  left: 187px;
+  left: 84px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 93px;
   height: 34px;
@@ -2629,7 +2633,7 @@
 }
 .watercolor-161 {
   top: 312px;
-  left: 201px;
+  left: 98px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 20px;
   height: 30px;
@@ -2639,7 +2643,7 @@
 }
 .watercolor-162 {
   top: 307px;
-  left: 209px;
+  left: 106px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 13px;
   height: 12px;
@@ -2651,7 +2655,7 @@
 }
 .watercolor-163 {
   top: 323px;
-  left: 208px;
+  left: 105px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 24px;
   height: 24px;
@@ -2663,7 +2667,7 @@
 }
 .watercolor-164 {
   top: 331px;
-  left: 225px;
+  left: 122px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 16px;
   height: 14px;
@@ -2674,7 +2678,7 @@
 }
 .watercolor-165 {
   top: 314px;
-  left: 224px;
+  left: 121px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 19px;
   height: 16px;
@@ -2686,7 +2690,7 @@
 }
 .watercolor-166 {
   top: 339px;
-  left: 228px;
+  left: 125px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 4px;
   height: 9px;
@@ -2697,7 +2701,7 @@
 }
 .watercolor-167 {
   top: 316px;
-  left: 224px;
+  left: 121px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 11px;
   height: 28px;
@@ -2708,7 +2712,7 @@
 }
 .watercolor-168 {
   top: 378px;
-  left: 170px;
+  left: 67px;
   border-radius: 50%;
   width: 13px;
   height: 8px;
@@ -2719,7 +2723,7 @@
 }
 .watercolor-169 {
   top: 382px;
-  left: 173px;
+  left: 70px;
   border-radius: 50%;
   width: 10px;
   height: 8px;
@@ -2730,7 +2734,7 @@
 }
 .watercolor-170 {
   top: 382px;
-  left: 168px;
+  left: 65px;
   border-radius: 50%;
   width: 8px;
   height: 5px;
@@ -2741,7 +2745,7 @@
 }
 .watercolor-171 {
   top: 370px;
-  left: 177px;
+  left: 74px;
   border-radius: 50%;
   width: 21px;
   height: 17px;
@@ -2753,7 +2757,7 @@
 }
 .watercolor-172 {
   top: 398px;
-  left: 174px;
+  left: 71px;
   border-radius: 50%;
   width: 25px;
   height: 30px;
@@ -2765,7 +2769,7 @@
 
 .watercolor-173 {
   top: 449px;
-  left: 171px;
+  left: 68px;
   border-radius: 50%;
   width: 15px;
   height: 20px;
@@ -2776,7 +2780,7 @@
 }
 .watercolor-174 {
   top: 449px;
-  left: 162px;
+  left: 59px;
   border-radius: 50%;
   width: 5px;
   height: 10px;
@@ -2787,7 +2791,7 @@
 }
 .watercolor-175 {
   top: 386px;
-  left: 158px;
+  left: 55px;
   border-radius: 50%;
   width: 25px;
   height: 52px;
@@ -2799,7 +2803,7 @@
 }
 .watercolor-176 {
   top: 406px;
-  left: 189px;
+  left: 86px;
   border-radius: 50%;
   width: 1px;
   height: 23px;
@@ -2811,7 +2815,7 @@
 }
 .watercolor-177 {
   top: 383px;
-  left: 120px;
+  left: 17px;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -2826,7 +2830,7 @@
 }
 .watercolor-178 {
   top: 385px;
-  left: 136px;
+  left: 33px;
   border-radius: 50%;
   width: 40px;
   height: 20px;
@@ -2840,7 +2844,7 @@
 
 .watercolor-179 {
   top: 401px;
-  left: 126px;
+  left: 23px;
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -2852,7 +2856,7 @@
 }
 .watercolor-180 {
   top: 428px;
-  left: 120px;
+  left: 17px;
   border-radius: 50%;
   width: 16px;
   height: 27px;
@@ -2864,7 +2868,7 @@
 }
 .watercolor-181 {
   top: 441px;
-  left: 150px;
+  left: 47px;
   border-radius: 50%;
   width: 15px;
   height: 20px;
@@ -2875,7 +2879,7 @@
 }
 .watercolor-183 {
   top: 320px;
-  left: 188px;
+  left: 85px;
   border-radius: 50%;
   width: 32px;
   height: 50px;
@@ -2886,7 +2890,7 @@
 }
 .watercolor-184 {
   top: 371px;
-  left: 190px;
+  left: 87px;
   border-radius: 50%;
   width: 15px;
   height: 20px;
@@ -2897,7 +2901,7 @@
 }
 .watercolor-185 {
   top: 293px;
-  left: 195px;
+  left: 92px;
   border-radius: 50%;
   width: 31px;
   height: 39px;
@@ -2908,7 +2912,7 @@
 }
 .watercolor-186 {
   top: 301px;
-  left: 177px;
+  left: 74px;
   border-radius: 50%;
   width: 107px;
   height: 112px;
@@ -2925,7 +2929,7 @@
 }
 .watercolor-187 {
   top: 326px;
-  left: 185px;
+  left: 82px;
   border-radius: 50%;
   width: 60px;
   height: 72px;
@@ -2941,7 +2945,7 @@
 }
 .watercolor-188 {
   top: 340px;
-  left: 197px;
+  left: 94px;
   border-radius: 50%;
   width: 14px;
   height: 16px;
@@ -2953,7 +2957,7 @@
 }
 .watercolor-189 {
   top: 378px;
-  left: 210px;
+  left: 107px;
   border-radius: 50%;
   width: 17px;
   height: 20px;
@@ -2965,7 +2969,7 @@
 }
 .watercolor-190 {
   top: 319px;
-  left: 184px;
+  left: 81px;
   border-radius: 50%;
   width: 25px;
   height: 16px;
@@ -2977,7 +2981,7 @@
 }
 .watercolor-191 {
   top: 385px;
-  left: 148px;
+  left: 45px;
   border-radius: 50%;
   width: 49px;
   height: 62px;
@@ -2988,7 +2992,7 @@
 }
 .watercolor-192 {
   top: 383px;
-  left: 148px;
+  left: 45px;
   border-radius: 50%;
   width: 60px;
   height: 80px;
@@ -3003,7 +3007,7 @@
 }
 .watercolor-193 {
   top: 313px;
-  left: 241px;
+  left: 138px;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -3019,7 +3023,7 @@
 
 .watercolor-194 {
   top: 410px;
-  left: 149px;
+  left: 46px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 24px;
   height: 24px;
@@ -3032,7 +3036,7 @@
 
 .watercolor-195 {
   top: 300px;
-  left: 228px;
+  left: 125px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 35px;
   height: 30px;
@@ -3049,9 +3053,8 @@
 }
 .watercolor-196 {
   top: 301px;
-  left: 225px;
+  left: 122px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
-  /* border-top: 2px solid #000; */
   width: 30px;
   height: 10px;
   transform: rotate(343deg);
@@ -3067,9 +3070,8 @@
 }
 .watercolor-197 {
   top: 296px;
-  left: 210px;
+  left: 107px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
-  /* border-top: 2px solid #000; */
   width: 18px;
   height: 10px;
   transform: rotate(3deg);
@@ -3085,9 +3087,8 @@
 }
 .watercolor-198 {
   top: 295px;
-  left: 198px;
+  left: 95px;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
-  /* border-left: 2px solid #000; */
   width: 15px;
   height: 20px;
   transform: rotate(52deg);
@@ -3103,7 +3104,7 @@
 }
 .watercolor-199 {
   top: 315px;
-  left: 185px;
+  left: 82px;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
   width: 93px;
   height: 34px;

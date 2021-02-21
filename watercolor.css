@@ -1,6 +1,18 @@
+body {
+  overflow-x: hidden;
+}
 .watercolor-flower-cont {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .watercolor-flower-cont {
+    left: 50vw;
+    transform: translate(-34.5vh);
+    position: absolute;
+  }
 }
 
 .outline {

@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden;
 }
 .watercolor-flower-cont {
   width: 100%;
@@ -7,16 +6,32 @@ body {
   border: none;
 }
 
+/* mobile */
 @media only screen and (min-width: 500px) {
   .watercolor-flower-cont {
-    left: 50vw;
+    /* left: 50vw;
     transform: translate(-34.5vh);
+    position: absolute; */
+  }
+}
+/* desktop */
+@media only screen and (max-width: 501px) {
+  .watercolor-flower-cont {
+     /* left: 50vw;
+    transform: translate(-34.5vh); 
     position: absolute;
+    overflow-x: hidden; */
   }
 }
 
 .outline {
   position: absolute;
+}
+@supports (-webkit-touch-callout: none) {
+  .outline {
+    border-radius: 0;
+    border: 1px solid transparent;
+  }
 }
 .outline-1 {
   top: 24.78vh;

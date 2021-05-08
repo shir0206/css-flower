@@ -12,5 +12,5 @@
 
 Flower painted with `CSS` only.
 
-:tulip: Link: https://shir0206.github.io/watercolor-flower/
+:tulip: Link: https://shir0206.github.io/css-flower/
 

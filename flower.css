@@ -1,38 +1,28 @@
 body {
+  margin: 0;
 }
-.watercolor-flower-cont {
-  width: 100%;
+
+.petal-flower-cont {
   height: 100%;
   border: none;
 }
 
-/* mobile */
-@media only screen and (min-width: 500px) {
-  .watercolor-flower-cont {
-    /* left: 50vw;
-    transform: translate(-34.5vh);
-    position: absolute; */
-  }
+.petal-cont,
+.outline-cont {
+  position: relative;
 }
-/* desktop */
-@media only screen and (max-width: 501px) {
-  .watercolor-flower-cont {
-     /* left: 50vw;
-    transform: translate(-34.5vh); 
-    position: absolute;
-    overflow-x: hidden; */
-  }
+.petal-flower-cont {
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -70vh;
 }
 
 .outline {
   position: absolute;
 }
-@supports (-webkit-touch-callout: none) {
-  .outline {
-    border-radius: 0;
-    border: 1px solid transparent;
-  }
-}
+
 .outline-1 {
   top: 24.78vh;
   left: 4.43vh;
@@ -107,7 +97,6 @@ body {
   left: 18.94vh;
   border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
   border-left: 1.42vh solid #000;
-  border-top: 0.35vh solid #000;
   width: 3.54vh;
   height: 6.2vh;
   transform: rotate(290deg);
@@ -217,12 +206,12 @@ body {
 }
 .outline-19 {
   top: 22.48vh;
-  left: 37.52vh;
-  border-radius: 100% 0% 93% 7% / 60% 9% 91% 40%;
+  left: 37vh;
+  border-radius: 100% 46% 93% 7% / 60% 9% 91% 40%;
   border-right: 1.06vh solid #000;
-  width: 1.77vh;
-  height: 7.08vh;
-  transform: rotate(355deg);
+  width: 2vh;
+  height: 8vh;
+  transform: rotate(359deg);
 }
 
 .outline-20 {
@@ -595,7 +584,7 @@ body {
   left: 48.32vh;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 0.71vh solid #000;
-  width: 9.74vh;
+  width: 10vh;
   height: 5.49vh;
   transform: rotate(8deg);
 }
@@ -619,13 +608,13 @@ body {
   transform: rotate(330deg);
 }
 .outline-69 {
-  top: 53.63vh;
-  left: 43.72vh;
-  border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
-  border-right: 0.35vh solid #000;
-  width: 2.83vh;
-  height: 2.12vh;
-  transform: rotate(80deg);
+  top: 52.7vh;
+  left: 43.3vh;
+  border-radius: 33% 67% 15% 99% / 35% 83% 17% 65%;
+  border-right: 0.25vh solid #000;
+  width: 3.5vh;
+  height: 2.5vh;
+  transform: rotate(66deg);
 }
 .outline-70 {
   top: 58.59vh;
@@ -991,7 +980,7 @@ body {
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 0.35vh solid #000;
   width: 4.43vh;
-  height: 1.42vh;
+  height: 1.12vh;
   transform: rotate(125deg);
 }
 
@@ -1000,7 +989,7 @@ body {
   left: 21.06vh;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
   border-top: 0.71vh solid #000;
-  width: 9.74vh;
+  width: 9.94vh;
   height: 3.01vh;
   transform: rotate(-83deg);
 }
@@ -1329,11 +1318,11 @@ body {
   height: 0.53vh;
   transform: rotate(46deg);
 }
-.watercolor {
+.petal {
   position: absolute;
 }
 
-.watercolor-1 {
+.petal-1 {
   top: 87.62vh;
   left: 23.01vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1345,7 +1334,7 @@ body {
   filter: blur(0.53vh);
 }
 
-.watercolor-2 {
+.petal-2 {
   top: 88.5vh;
   left: 33.63vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1357,7 +1346,7 @@ body {
   filter: blur(0.89vh);
 }
 
-.watercolor-3 {
+.petal-3 {
   top: 92.39vh;
   left: 34.69vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1369,7 +1358,7 @@ body {
   filter: blur(1.42vh);
 }
 
-.watercolor-4 {
+.petal-4 {
   top: 87.79vh;
   left: 34.52vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1381,7 +1370,7 @@ body {
   filter: blur(0.71vh);
 }
 
-.watercolor-5 {
+.petal-5 {
   top: 92.04vh;
   left: 37.88vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1393,7 +1382,7 @@ body {
   filter: blur(1.24vh);
 }
 
-.watercolor-6 {
+.petal-6 {
   top: 86.55vh;
   left: 36.46vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1405,7 +1394,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-7 {
+.petal-7 {
   top: 88.15vh;
   left: 36.64vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1417,7 +1406,7 @@ body {
   filter: blur(0.71vh);
 }
 
-.watercolor-8 {
+.petal-8 {
   top: 84.61vh;
   left: 37.17vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1429,7 +1418,7 @@ body {
   filter: blur(0.53vh);
 }
 
-.watercolor-9 {
+.petal-9 {
   top: 85.67vh;
   left: 31.68vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1446,7 +1435,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-10 {
+.petal-10 {
   top: 82.66vh;
   left: 31.68vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1463,7 +1452,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-43 {
+.petal-43 {
   top: 62.48vh;
   left: 33.1vh;
   border-radius: 50%;
@@ -1478,7 +1467,7 @@ body {
   );
   filter: blur(0.18vh);
 }
-.watercolor-44 {
+.petal-44 {
   top: 67.26vh;
   left: 33.81vh;
   border-radius: 50%;
@@ -1489,7 +1478,7 @@ body {
   box-shadow: 0vh 0vh 1.24vh 0.35vh #b24b8e;
   filter: blur(0.18vh);
 }
-.watercolor-45 {
+.petal-45 {
   top: 63.01vh;
   left: 38.23vh;
   border-radius: 50%;
@@ -1501,7 +1490,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-47 {
+.petal-47 {
   top: 62.3vh;
   left: 46.91vh;
   border-radius: 50%;
@@ -1513,7 +1502,7 @@ body {
   filter: blur(0.53vh);
 }
 
-.watercolor-49 {
+.petal-49 {
   top: 60.89vh;
   left: 39.65vh;
   border-radius: 50%;
@@ -1525,7 +1514,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-50 {
+.petal-50 {
   top: 58.41vh;
   left: 41.06vh;
   border-radius: 50%;
@@ -1537,7 +1526,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-51 {
+.petal-51 {
   top: 61.95vh;
   left: 46.37vh;
   border-radius: 50%;
@@ -1549,7 +1538,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-52 {
+.petal-52 {
   top: 60.36vh;
   left: 46.37vh;
   border-radius: 50%;
@@ -1560,7 +1549,7 @@ body {
   box-shadow: 0.89vh 0.35vh 1.24vh 0.35vh #c454a0;
   filter: blur(0.35vh);
 }
-.watercolor-53 {
+.petal-53 {
   top: 63.72vh;
   left: 42.66vh;
   border-radius: 50%;
@@ -1573,7 +1562,7 @@ body {
   opacity: 60%;
 }
 
-.watercolor-54 {
+.petal-54 {
   top: 62.48vh;
   left: 40.89vh;
   border-radius: 50%;
@@ -1585,7 +1574,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-55 {
+.petal-55 {
   top: 54.52vh;
   left: 50.09vh;
   border-radius: 50%;
@@ -1597,7 +1586,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-57 {
+.petal-57 {
   top: 58.59vh;
   left: 47.79vh;
   border-radius: 50%;
@@ -1609,7 +1598,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-58 {
+.petal-58 {
   top: 59.65vh;
   left: 52.22vh;
   border-radius: 50%;
@@ -1622,7 +1611,7 @@ body {
   opacity: 30%;
 }
 
-.watercolor-61 {
+.petal-61 {
   top: 69.03vh;
   left: 42.48vh;
   border-radius: 50%;
@@ -1635,7 +1624,7 @@ body {
   opacity: 80%;
 }
 
-.watercolor-62 {
+.petal-62 {
   top: 54.52vh;
   left: 56.82vh;
   border-radius: 50%;
@@ -1648,7 +1637,7 @@ body {
   opacity: 80%;
 }
 
-.watercolor-63 {
+.petal-63 {
   top: 50.62vh;
   left: 45.67vh;
   border-radius: 50%;
@@ -1661,7 +1650,7 @@ body {
   opacity: 60%;
 }
 
-.watercolor-64 {
+.petal-64 {
   top: 46.02vh;
   left: 57.53vh;
   border-radius: 50%;
@@ -1672,7 +1661,7 @@ body {
   box-shadow: 3.01vh 0vh 1.77vh 0.18vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-65 {
+.petal-65 {
   top: 49.03vh;
   left: 56.99vh;
   border-radius: 50%;
@@ -1684,7 +1673,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-66 {
+.petal-66 {
   top: 44.25vh;
   left: 44.07vh;
   border-radius: 50%;
@@ -1696,7 +1685,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-68 {
+.petal-68 {
   top: 48.5vh;
   left: 48.32vh;
   border-radius: 50%;
@@ -1707,7 +1696,7 @@ body {
   box-shadow: 3.19vh 0vh 1.24vh 1.95vh #e5408fc2;
   filter: blur(0.35vh);
 }
-.watercolor-69 {
+.petal-69 {
   top: 50.45vh;
   left: 45.14vh;
   border-radius: 50%;
@@ -1720,7 +1709,7 @@ body {
   opacity: 50%;
 }
 
-.watercolor-70 {
+.petal-70 {
   top: 48.5vh;
   left: 46.55vh;
   border-radius: 50%;
@@ -1732,7 +1721,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-71 {
+.petal-71 {
   top: 54.52vh;
   left: 50.09vh;
   border-radius: 50%;
@@ -1743,7 +1732,7 @@ body {
   box-shadow: 2.66vh 3.54vh 1.77vh 1.42vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-72 {
+.petal-72 {
   top: 62.66vh;
   left: 36.82vh;
   border-radius: 50%;
@@ -1755,7 +1744,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-60 {
+.petal-60 {
   top: 61.6vh;
   left: 47.79vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -1768,7 +1757,7 @@ body {
   opacity: 20%;
 }
 
-.watercolor-59 {
+.petal-59 {
   top: 69.21vh;
   left: 49.91vh;
   border-radius: 50%;
@@ -1780,7 +1769,7 @@ body {
   filter: blur(0.35vh);
   opacity: 80%;
 }
-.watercolor-48 {
+.petal-48 {
   top: 62.3vh;
   left: 48.5vh;
   border-radius: 50%;
@@ -1792,7 +1781,7 @@ body {
   filter: blur(0.18vh);
   opacity: 60%;
 }
-.watercolor-67 {
+.petal-67 {
   top: 42.83vh;
   left: 47.79vh;
   border-radius: 50%;
@@ -1805,7 +1794,7 @@ body {
   opacity: 80%;
 }
 
-.watercolor-46 {
+.petal-46 {
   top: 58.41vh;
   left: 52.39vh;
   border-radius: 50%;
@@ -1818,7 +1807,7 @@ body {
   opacity: 50%;
 }
 
-.watercolor-76 {
+.petal-76 {
   top: 35.58vh;
   left: 27.61vh;
   border-radius: 50%;
@@ -1830,7 +1819,7 @@ body {
   filter: blur(0.89vh);
 }
 
-.watercolor-77 {
+.petal-77 {
   top: 31.15vh;
   left: 26.37vh;
   border-radius: 46%;
@@ -1843,7 +1832,7 @@ body {
   opacity: 50%;
 }
 
-.watercolor-78 {
+.petal-78 {
   top: 25.67vh;
   left: 20.53vh;
   border-radius: 50%;
@@ -1855,7 +1844,7 @@ body {
   filter: blur(0.53vh);
 }
 
-.watercolor-79 {
+.petal-79 {
   top: 21.06vh;
   left: 20.18vh;
   border-radius: 50%;
@@ -1866,7 +1855,7 @@ body {
   box-shadow: 2.66vh 0.18vh 2.12vh -0.18vh #e11574;
   filter: blur(0.89vh);
 }
-.watercolor-80 {
+.petal-80 {
   top: 24.43vh;
   left: 29.21vh;
   border-radius: 46%;
@@ -1879,7 +1868,7 @@ body {
   opacity: 45%;
 }
 
-.watercolor-81 {
+.petal-81 {
   top: 21.06vh;
   left: 22.48vh;
   border-radius: 50%;
@@ -1891,7 +1880,7 @@ body {
   filter: blur(0.71vh);
   opacity: 70%;
 }
-.watercolor-82 {
+.petal-82 {
   top: 21.06vh;
   left: 13.28vh;
   border-radius: 50%;
@@ -1903,7 +1892,7 @@ body {
   filter: blur(0.71vh);
   opacity: 80%;
 }
-.watercolor-83 {
+.petal-83 {
   top: 27.08vh;
   left: 22.3vh;
   border-radius: 50%;
@@ -1915,7 +1904,7 @@ body {
   filter: blur(0.71vh);
   opacity: 50%;
 }
-.watercolor-84 {
+.petal-84 {
   top: 30.8vh;
   left: 19.47vh;
   border-radius: 50%;
@@ -1926,7 +1915,7 @@ body {
   box-shadow: 2.3vh 1.06vh 3.72vh 1.06vh #0300b5cc;
   filter: blur(0.35vh);
 }
-.watercolor-85 {
+.petal-85 {
   top: 25.13vh;
   left: 17.52vh;
   border-radius: 50%;
@@ -1938,7 +1927,7 @@ body {
   filter: blur(1.42vh);
   opacity: 60%;
 }
-.watercolor-86 {
+.petal-86 {
   top: 16.82vh;
   left: 20.36vh;
   border-radius: 50%;
@@ -1950,7 +1939,7 @@ body {
   filter: blur(1.06vh);
   opacity: 50%;
 }
-.watercolor-87 {
+.petal-87 {
   top: 15.4vh;
   left: 18.41vh;
   border-radius: 50%;
@@ -1962,7 +1951,7 @@ body {
   filter: blur(1.06vh);
   opacity: 80%;
 }
-.watercolor-88 {
+.petal-88 {
   top: 10.44vh;
   left: 16.64vh;
   border-radius: 50%;
@@ -1974,7 +1963,7 @@ body {
   filter: blur(1.06vh);
   opacity: 80%;
 }
-.watercolor-89 {
+.petal-89 {
   top: 19.29vh;
   left: 17.17vh;
   border-radius: 50%;
@@ -1986,7 +1975,7 @@ body {
   filter: blur(1.06vh);
   opacity: 40%;
 }
-.watercolor-90 {
+.petal-90 {
   top: 10.97vh;
   left: 13.81vh;
   border-radius: 50%;
@@ -1997,7 +1986,7 @@ body {
   box-shadow: 2.66vh -4.6vh 1.77vh -0.18vh #e1155bf7;
   filter: blur(0.35vh);
 }
-.watercolor-91 {
+.petal-91 {
   top: 15.58vh;
   left: 13.28vh;
   border-radius: 50%;
@@ -2010,7 +1999,7 @@ body {
   opacity: 40%;
 }
 
-.watercolor-92 {
+.petal-92 {
   top: 18.41vh;
   left: 22.3vh;
   border-radius: 50%;
@@ -2022,7 +2011,7 @@ body {
   filter: blur(1.06vh);
   opacity: 80%;
 }
-.watercolor-93 {
+.petal-93 {
   top: 7.26vh;
   left: 15.93vh;
   border-radius: 50%;
@@ -2034,7 +2023,7 @@ body {
   filter: blur(0.18vh);
   opacity: 40%;
 }
-.watercolor-95 {
+.petal-95 {
   top: 7.61vh;
   left: 14.87vh;
   border-radius: 50%;
@@ -2050,7 +2039,7 @@ body {
   );
   filter: blur(0.53vh);
 }
-.watercolor-96 {
+.petal-96 {
   top: 29.21vh;
   left: 33.1vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2061,7 +2050,7 @@ body {
   box-shadow: 0vh -1.24vh 1.24vh 0.53vh #12a9c0;
   filter: blur(0.35vh);
 }
-.watercolor-97 {
+.petal-97 {
   top: 30.09vh;
   left: 32.75vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2072,7 +2061,7 @@ body {
   box-shadow: 0vh -1.24vh 0.35vh 0.53vh #63bde082;
   filter: blur(0.53vh);
 }
-.watercolor-98 {
+.petal-98 {
   top: 23.54vh;
   left: 27.97vh;
   border-radius: 50%;
@@ -2083,7 +2072,7 @@ body {
   box-shadow: 0.89vh -2.48vh 2.12vh 1.95vh #887db2;
   filter: blur(0.71vh);
 }
-.watercolor-99 {
+.petal-99 {
   top: 18.23vh;
   left: 28.32vh;
   border-radius: 50%;
@@ -2094,7 +2083,7 @@ body {
   box-shadow: 0.89vh 1.59vh 2.48vh 0.35vh #c454a0;
   filter: blur(0.35vh);
 }
-.watercolor-100 {
+.petal-100 {
   top: 21.42vh;
   left: 27.61vh;
   border-radius: 50%;
@@ -2105,7 +2094,7 @@ body {
   box-shadow: 1.95vh 0vh 1.24vh 0.18vh #6c19a085;
   filter: blur(0.35vh);
 }
-.watercolor-101 {
+.petal-101 {
   top: 12.39vh;
   left: 37.17vh;
   border-radius: 50%;
@@ -2116,7 +2105,7 @@ body {
   box-shadow: 2.3vh 0.71vh 1.95vh -0.89vh #c454a0;
   filter: blur(0.35vh);
 }
-.watercolor-102 {
+.petal-102 {
   top: 13.98vh;
   left: 38.23vh;
   border-radius: 50%;
@@ -2127,7 +2116,7 @@ body {
   box-shadow: 1.95vh 0vh 1.24vh -0.53vh #6c19a085;
   filter: blur(0.35vh);
 }
-.watercolor-103 {
+.petal-103 {
   top: 29.21vh;
   left: 18.23vh;
   border-radius: 50%;
@@ -2138,7 +2127,7 @@ body {
   box-shadow: -1.77vh 2.66vh 1.77vh 0vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-104 {
+.petal-104 {
   top: 32.39vh;
   left: 23.72vh;
   border-radius: 50%;
@@ -2149,7 +2138,7 @@ body {
   box-shadow: 3.54vh 0vh 1.24vh 0.71vh #b369aa75;
   filter: blur(0.71vh);
 }
-.watercolor-105 {
+.petal-105 {
   top: 28.5vh;
   left: 28.32vh;
   border-radius: 50%;
@@ -2161,7 +2150,7 @@ body {
   filter: blur(1.06vh);
   opacity: 60%;
 }
-.watercolor-107 {
+.petal-107 {
   top: 17.88vh;
   left: 22.66vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2177,7 +2166,7 @@ body {
   );
   filter: blur(0.18vh);
 }
-.watercolor-108 {
+.petal-108 {
   top: 26.9vh;
   left: 35.4vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2188,7 +2177,7 @@ body {
   box-shadow: -0.18vh -2.83vh 1.24vh 1.42vh #33addc;
   filter: blur(0.53vh);
 }
-.watercolor-109 {
+.petal-109 {
   top: 25.31vh;
   left: 33.63vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2199,7 +2188,7 @@ body {
   box-shadow: 0.89vh -3.36vh 1.95vh 1.95vh #33addc;
   filter: blur(0.71vh);
 }
-.watercolor-110 {
+.petal-110 {
   top: 21.42vh;
   left: 32.92vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2210,7 +2199,7 @@ body {
   box-shadow: 0.35vh -2.48vh 2.12vh 1.42vh #3087cf;
   filter: blur(0.35vh);
 }
-.watercolor-111 {
+.petal-111 {
   top: 15.22vh;
   left: 26.9vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2221,7 +2210,7 @@ body {
   box-shadow: -0.35vh -2.48vh 2.12vh 0.89vh #33addc;
   filter: blur(1.24vh);
 }
-.watercolor-112 {
+.petal-112 {
   top: 18.59vh;
   left: 28.5vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2233,7 +2222,7 @@ body {
   filter: blur(0.89vh);
 }
 
-.watercolor-114 {
+.petal-114 {
   top: 34.69vh;
   left: 35.05vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2246,7 +2235,7 @@ body {
   opacity: 80%;
 }
 
-.watercolor-116 {
+.petal-116 {
   top: 9.74vh;
   left: 24.07vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2258,7 +2247,7 @@ body {
   filter: blur(1.42vh);
   opacity: 30%;
 }
-.watercolor-117 {
+.petal-117 {
   top: 14.16vh;
   left: 30.62vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2270,7 +2259,7 @@ body {
   filter: blur(1.59vh);
   opacity: 60%;
 }
-.watercolor-118 {
+.petal-118 {
   top: 4.25vh;
   left: 18.23vh;
   border-radius: 50%;
@@ -2282,7 +2271,7 @@ body {
   filter: blur(0.53vh);
   opacity: 40%;
 }
-.watercolor-119 {
+.petal-119 {
   top: -9.2vh;
   left: 11.68vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2299,7 +2288,7 @@ body {
   filter: blur(0.35vh);
   opacity: 50%;
 }
-.watercolor-120 {
+.petal-120 {
   top: 7.26vh;
   left: 34.69vh;
   border-radius: 50%;
@@ -2311,7 +2300,7 @@ body {
   filter: blur(0.35vh);
   opacity: 30%;
 }
-.watercolor-121 {
+.petal-121 {
   top: 4.07vh;
   left: 15.4vh;
   border-radius: 50%;
@@ -2328,7 +2317,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-122 {
+.petal-122 {
   top: 13.81vh;
   left: 0vh;
   border-radius: 50%;
@@ -2344,7 +2333,7 @@ body {
   );
   filter: blur(0.35vh);
 }
-.watercolor-123 {
+.petal-123 {
   top: 23.9vh;
   left: 10.27vh;
   border-radius: 50%;
@@ -2356,7 +2345,7 @@ body {
   filter: blur(0.71vh);
   opacity: 80%;
 }
-.watercolor-124 {
+.petal-124 {
   top: 20.18vh;
   left: 12.57vh;
   border-radius: 50%;
@@ -2367,7 +2356,7 @@ body {
   box-shadow: 0.89vh 0vh 0vh -0.35vh #b7077f;
   filter: blur(0.35vh);
 }
-.watercolor-125 {
+.petal-125 {
   top: 21.59vh;
   left: 10.8vh;
   border-radius: 50%;
@@ -2379,7 +2368,7 @@ body {
   filter: blur(0.18vh);
   opacity: 60%;
 }
-.watercolor-126 {
+.petal-126 {
   top: 24.6vh;
   left: 8.14vh;
   border-radius: 50%;
@@ -2391,7 +2380,7 @@ body {
   filter: blur(0.35vh);
   opacity: 60%;
 }
-.watercolor-127 {
+.petal-127 {
   top: 30.27vh;
   left: 11.51vh;
   border-radius: 50%;
@@ -2402,7 +2391,7 @@ body {
   box-shadow: 3.19vh 0vh 1.24vh 1.95vh #e5408fc2;
   filter: blur(0.35vh);
 }
-.watercolor-128 {
+.petal-128 {
   top: 25.84vh;
   left: 9.56vh;
   border-radius: 50%;
@@ -2413,7 +2402,7 @@ body {
   box-shadow: 2.3vh -0.53vh 1.24vh 0.53vh #e5408fc2;
   filter: blur(0.35vh);
 }
-.watercolor-129 {
+.petal-129 {
   top: 28.32vh;
   left: 10.8vh;
   border-radius: 50%;
@@ -2425,7 +2414,7 @@ body {
   filter: blur(0.18vh);
   opacity: 70%;
 }
-.watercolor-130 {
+.petal-130 {
   top: 38.76vh;
   left: 21.77vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2437,7 +2426,7 @@ body {
   filter: blur(0.35vh);
   opacity: 20%;
 }
-.watercolor-131 {
+.petal-131 {
   top: 13.81vh;
   left: 3.01vh;
   border-radius: 50%;
@@ -2452,7 +2441,7 @@ body {
   );
   filter: blur(0.18vh);
 }
-.watercolor-132 {
+.petal-132 {
   top: 32.39vh;
   left: 11.68vh;
   border-radius: 50%;
@@ -2463,7 +2452,7 @@ body {
   box-shadow: 0vh 0vh 1.24vh 0.35vh #b24b8e;
   filter: blur(0.18vh);
 }
-.watercolor-133 {
+.petal-133 {
   top: 23.01vh;
   left: 11.15vh;
   border-radius: 50%;
@@ -2475,7 +2464,7 @@ body {
   filter: blur(1.06vh);
   opacity: 50%;
 }
-.watercolor-134 {
+.petal-134 {
   top: 28.85vh;
   left: 12.39vh;
   border-radius: 50%;
@@ -2486,7 +2475,7 @@ body {
   box-shadow: 3.19vh 0vh 1.24vh 0.89vh #b369aa;
   filter: blur(0.53vh);
 }
-.watercolor-135 {
+.petal-135 {
   top: 22.83vh;
   left: 10.09vh;
   border-radius: 50%;
@@ -2497,7 +2486,7 @@ body {
   box-shadow: 3.19vh 0vh 1.24vh 0.89vh #e5408f;
   filter: blur(0.18vh);
 }
-.watercolor-136 {
+.petal-136 {
   top: 34.34vh;
   left: 13.81vh;
   border-radius: 50%;
@@ -2508,7 +2497,7 @@ body {
   box-shadow: 3.54vh 0vh 1.24vh 0.71vh #e5408f57;
   filter: blur(0.53vh);
 }
-.watercolor-137 {
+.petal-137 {
   top: 38.23vh;
   left: 19.47vh;
   border-radius: 50%;
@@ -2520,7 +2509,7 @@ body {
   filter: blur(0.18vh);
   opacity: 60%;
 }
-.watercolor-138 {
+.petal-138 {
   top: 36.29vh;
   left: 12.92vh;
   border-radius: 50%;
@@ -2532,7 +2521,7 @@ body {
   filter: blur(0.53vh);
   opacity: 20%;
 }
-.watercolor-139 {
+.petal-139 {
   top: 40vh;
   left: 26.9vh;
   border-radius: 50%;
@@ -2544,7 +2533,7 @@ body {
   filter: blur(0.35vh);
   opacity: 80%;
 }
-.watercolor-140 {
+.petal-140 {
   top: 17.17vh;
   left: 9.03vh;
   border-radius: 50%;
@@ -2555,7 +2544,7 @@ body {
   box-shadow: 3.01vh 0vh 1.77vh 0.18vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-141 {
+.petal-141 {
   top: 13.63vh;
   left: 6.73vh;
   border-radius: 50%;
@@ -2566,7 +2555,7 @@ body {
   box-shadow: 3.01vh 0vh 1.06vh 0.18vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-142 {
+.petal-142 {
   top: 28.85vh;
   left: 18.94vh;
   border-radius: 50%;
@@ -2578,7 +2567,7 @@ body {
   filter: blur(0.71vh);
   opacity: 20%;
 }
-.watercolor-143 {
+.petal-143 {
   top: 19.65vh;
   left: 12.39vh;
   border-radius: 50%;
@@ -2589,7 +2578,7 @@ body {
   box-shadow: 0.89vh 0vh 0vh -0.35vh #b7077f;
   filter: blur(0.35vh);
 }
-.watercolor-144 {
+.petal-144 {
   top: 23.9vh;
   left: 8.5vh;
   border-radius: 50%;
@@ -2601,7 +2590,7 @@ body {
   filter: blur(0.71vh);
   opacity: 80%;
 }
-.watercolor-145 {
+.petal-145 {
   top: 25.13vh;
   left: 6.9vh;
   border-radius: 50%;
@@ -2613,7 +2602,7 @@ body {
   filter: blur(0.35vh);
 }
 
-.watercolor-150 {
+.petal-150 {
   top: 67.44vh;
   left: 16.46vh;
   border-radius: 50%;
@@ -2626,7 +2615,7 @@ body {
   opacity: 30%;
 }
 
-.watercolor-159 {
+.petal-159 {
   top: 53.45vh;
   left: 11.51vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2638,7 +2627,7 @@ body {
   filter: blur(0.53vh);
 }
 
-.watercolor-160 {
+.petal-160 {
   top: 56.82vh;
   left: 14.87vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2654,7 +2643,7 @@ body {
   );
   filter: blur(0.35vh);
 }
-.watercolor-161 {
+.petal-161 {
   top: 55.22vh;
   left: 17.35vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2664,7 +2653,7 @@ body {
   background: #3ca9da;
   filter: blur(0.18vh);
 }
-.watercolor-162 {
+.petal-162 {
   top: 54.34vh;
   left: 18.76vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2676,7 +2665,7 @@ body {
   filter: blur(0.53vh);
   opacity: 50%;
 }
-.watercolor-163 {
+.petal-163 {
   top: 57.17vh;
   left: 18.59vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2688,7 +2677,7 @@ body {
   filter: blur(0.35vh);
   opacity: 80%;
 }
-.watercolor-164 {
+.petal-164 {
   top: 58.59vh;
   left: 21.59vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2699,7 +2688,7 @@ body {
   box-shadow: -0.35vh -2.48vh 2.12vh 1.24vh #3087cf;
   filter: blur(0.71vh);
 }
-.watercolor-165 {
+.petal-165 {
   top: 55.58vh;
   left: 21.42vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2711,7 +2700,7 @@ body {
   filter: blur(0.71vh);
   opacity: 80%;
 }
-.watercolor-166 {
+.petal-166 {
   top: 60vh;
   left: 22.13vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2722,7 +2711,7 @@ body {
   box-shadow: -0.35vh -2.48vh 2.12vh 1.59vh #125e9e;
   filter: blur(0.53vh);
 }
-.watercolor-167 {
+.petal-167 {
   top: 55.93vh;
   left: 21.42vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -2733,7 +2722,7 @@ body {
   box-shadow: 0vh -1.24vh 2.12vh 1.42vh #3087cf;
   filter: blur(0.53vh);
 }
-.watercolor-168 {
+.petal-168 {
   top: 66.91vh;
   left: 11.86vh;
   border-radius: 50%;
@@ -2744,7 +2733,7 @@ body {
   box-shadow: 1.24vh 0vh 1.24vh 0.71vh #b369aa;
   filter: blur(0.18vh);
 }
-.watercolor-169 {
+.petal-169 {
   top: 67.61vh;
   left: 12.39vh;
   border-radius: 50%;
@@ -2755,7 +2744,7 @@ body {
   box-shadow: 1.24vh 0vh 1.24vh 0.71vh #b369aaa1;
   filter: blur(0.18vh);
 }
-.watercolor-170 {
+.petal-170 {
   top: 67.61vh;
   left: 11.51vh;
   border-radius: 50%;
@@ -2766,7 +2755,7 @@ body {
   box-shadow: 1.24vh 0vh 1.24vh 0.71vh #b369aaa1;
   filter: blur(0.18vh);
 }
-.watercolor-171 {
+.petal-171 {
   top: 65.49vh;
   left: 13.1vh;
   border-radius: 50%;
@@ -2778,7 +2767,7 @@ body {
   filter: blur(1.06vh);
   opacity: 50%;
 }
-.watercolor-172 {
+.petal-172 {
   top: 70.45vh;
   left: 12.57vh;
   border-radius: 50%;
@@ -2790,7 +2779,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-173 {
+.petal-173 {
   top: 79.47vh;
   left: 12.04vh;
   border-radius: 50%;
@@ -2801,7 +2790,7 @@ body {
   box-shadow: 3.01vh 0vh 1.77vh 0.18vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-174 {
+.petal-174 {
   top: 79.47vh;
   left: 10.44vh;
   border-radius: 50%;
@@ -2812,7 +2801,7 @@ body {
   box-shadow: 1.59vh 0vh 1.77vh 0.18vh #e11574;
   filter: blur(0.18vh);
 }
-.watercolor-175 {
+.petal-175 {
   top: 68.32vh;
   left: 9.74vh;
   border-radius: 50%;
@@ -2824,7 +2813,7 @@ body {
   filter: blur(0.35vh);
   opacity: 80%;
 }
-.watercolor-176 {
+.petal-176 {
   top: 71.86vh;
   left: 15.22vh;
   border-radius: 50%;
@@ -2836,7 +2825,7 @@ body {
   filter: blur(0.18vh);
   opacity: 60%;
 }
-.watercolor-177 {
+.petal-177 {
   top: 67.79vh;
   left: 3.01vh;
   border-radius: 50%;
@@ -2851,7 +2840,7 @@ body {
   );
   filter: blur(0.18vh);
 }
-.watercolor-178 {
+.petal-178 {
   top: 68.15vh;
   left: 5.84vh;
   border-radius: 50%;
@@ -2865,7 +2854,7 @@ body {
   opacity: 70%;
 }
 
-.watercolor-179 {
+.petal-179 {
   top: 70.98vh;
   left: 4.07vh;
   border-radius: 50%;
@@ -2877,7 +2866,7 @@ body {
   filter: blur(0.53vh);
   opacity: 90%;
 }
-.watercolor-180 {
+.petal-180 {
   top: 75.76vh;
   left: 3.01vh;
   border-radius: 50%;
@@ -2889,7 +2878,7 @@ body {
   filter: blur(0.18vh);
   opacity: 70%;
 }
-.watercolor-181 {
+.petal-181 {
   top: 78.06vh;
   left: 8.32vh;
   border-radius: 50%;
@@ -2900,7 +2889,7 @@ body {
   box-shadow: 3.01vh 0vh 1.77vh 0.18vh #e11574;
   filter: blur(0.53vh);
 }
-.watercolor-183 {
+.petal-183 {
   top: 56.64vh;
   left: 15.05vh;
   border-radius: 50%;
@@ -2911,7 +2900,7 @@ body {
   box-shadow: 1.77vh 5.13vh 1.77vh -0.18vh #e1155bf7;
   filter: blur(0.35vh);
 }
-.watercolor-184 {
+.petal-184 {
   top: 65.67vh;
   left: 15.4vh;
   border-radius: 50%;
@@ -2922,7 +2911,7 @@ body {
   box-shadow: 3.01vh 0vh 1.77vh 0.18vh #e115747d;
   filter: blur(0.18vh);
 }
-.watercolor-185 {
+.petal-185 {
   top: 51.86vh;
   left: 16.28vh;
   border-radius: 50%;
@@ -2933,7 +2922,7 @@ body {
   box-shadow: 2.3vh 0.71vh 1.95vh -0.89vh #ef0078ba;
   filter: blur(0.53vh);
 }
-.watercolor-186 {
+.petal-186 {
   top: 53.28vh;
   left: 13.1vh;
   border-radius: 50%;
@@ -2950,7 +2939,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-187 {
+.petal-187 {
   top: 57.7vh;
   left: 14.51vh;
   border-radius: 50%;
@@ -2966,7 +2955,7 @@ body {
   );
   filter: blur(0.53vh);
 }
-.watercolor-188 {
+.petal-188 {
   top: 60.18vh;
   left: 16.64vh;
   border-radius: 50%;
@@ -2978,7 +2967,7 @@ body {
   filter: blur(1.06vh);
   opacity: 80%;
 }
-.watercolor-189 {
+.petal-189 {
   top: 66.91vh;
   left: 18.94vh;
   border-radius: 50%;
@@ -2990,7 +2979,7 @@ body {
   filter: blur(1.06vh);
   opacity: 80%;
 }
-.watercolor-190 {
+.petal-190 {
   top: 56.46vh;
   left: 14.34vh;
   border-radius: 50%;
@@ -3002,7 +2991,7 @@ body {
   filter: blur(1.06vh);
   opacity: 50%;
 }
-.watercolor-191 {
+.petal-191 {
   top: 68.15vh;
   left: 7.97vh;
   border-radius: 50%;
@@ -3013,7 +3002,7 @@ body {
   box-shadow: 0.53vh -0.53vh 1.24vh 0.35vh #c454a0;
   filter: blur(0.35vh);
 }
-.watercolor-192 {
+.petal-192 {
   top: 67.79vh;
   left: 7.97vh;
   border-radius: 50%;
@@ -3028,7 +3017,7 @@ body {
   );
   filter: blur(0.18vh);
 }
-.watercolor-193 {
+.petal-193 {
   top: 55.4vh;
   left: 24.43vh;
   border-radius: 50%;
@@ -3044,7 +3033,7 @@ body {
   filter: blur(0.18vh);
 }
 
-.watercolor-194 {
+.petal-194 {
   top: 72.57vh;
   left: 8.14vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -3057,7 +3046,7 @@ body {
   opacity: 40%;
 }
 
-.watercolor-195 {
+.petal-195 {
   top: 53.1vh;
   left: 22.13vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
@@ -3074,7 +3063,7 @@ body {
   filter: blur(0.18vh);
   opacity: 30%;
 }
-.watercolor-196 {
+.petal-196 {
   top: 53.28vh;
   left: 21.59vh;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
@@ -3091,7 +3080,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-197 {
+.petal-197 {
   top: 52.39vh;
   left: 18.94vh;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
@@ -3108,7 +3097,7 @@ body {
   filter: blur(0.18vh);
   opacity: 40%;
 }
-.watercolor-198 {
+.petal-198 {
   top: 52.22vh;
   left: 16.82vh;
   border-radius: 33% 67% 1% 99% / 35% 83% 17% 65%;
@@ -3125,7 +3114,7 @@ body {
   filter: blur(0.18vh);
   opacity: 20%;
 }
-.watercolor-199 {
+.petal-199 {
   top: 55.76vh;
   left: 14.51vh;
   border-radius: 47% 53% 28% 72% / 47% 78% 22% 53%;
